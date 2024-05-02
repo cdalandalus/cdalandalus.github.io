@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enviar Datos al Servidor</title>
+</head>
+<body>
+
+<form id="myForm">
+    <input type="text" id="dataToSend" name="dataToSend">
+    <button type="submit">Enviar</button>
+</form>
+
+<script>
+document.getElementById("myForm").addEventListener("submit", function(event) {
+    event.preventDefault(); // Prevenir el comportamiento por defecto del formulario
+
+    var formData = new FormData(this); // Obtener los datos del formulario
+    var xhr = new XMLHttpRequest();
+
+    xhr.open("POST", "ruta/al/servidor", true); // Especificar la URL y el método HTTP (en este caso, POST)
+
+    // Opcional: configurar encabezados si es necesario
+    // xhr.setRequestHeader("Content-Type", "application/json");
+
+    xhr.onreadystatechange = function() {
+        if (xhr.readyState === XMLHttpRequest.DONE) {
+            if (xhr.status === 200) {
+                // Procesar la respuesta del servidor si es necesario
+                console.log(xhr.responseText);
+            } else {
+                // Manejar errores si es necesario
+                console.error("Error al enviar los datos al servidor");
+            }
+        }
+    };
+
+    xhr.send(formData); // Enviar los datos al servidor
+});
+</script>
+
+</body>
+</html>

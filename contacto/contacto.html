@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario de Contacto</title>
+</head>
+<body>
+
+<h2>Contacto</h2>
+
+<form id="contactForm">
+  <label for="nombre">Nombre:</label><br>
+  <input type="text" id="nombre" name="nombre" required><br>
+	
+  <label for="email">Email:</label><br>
+  <input type="email" id="email" name="email" required><br>
+	
+  <label for="mensaje">Mensaje:</label><br>
+  <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+	
+  <button type="submit">Enviar</button>
+</form>
+
+<script>
+document.getElementById("contactForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Evita que el formulario se envíe de forma predeterminada
+
+  // Recolecta los datos del formulario
+  var nombre = document.getElementById("nombre").value;
+  var email = document.getElementById("email").value;
+  var mensaje = document.getElementById("mensaje").value;
+
+  // Crea el cuerpo del correo electrónico
+  var body = "Nombre: " + nombre + "\n";
+  body += "Email: " + email + "\n";
+  body += "Mensaje: " + mensaje;
+
+  // Envía el correo electrónico usando el cliente de correo predeterminado del usuario
+  window.open("mailto:tuemail@example.com?subject=Formulario de Contacto&body=" + encodeURIComponent(body));
+});
+</script>
+
+</body>
+</html>

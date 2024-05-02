@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="es" >
+
+<!--<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Dropdown Menu - Responsive - 3 Mode - Multi Level Navigation Bar</title>
+  <link rel="stylesheet" href="./style.css">
+
+	
+</head>-->
+
+<!-- partial:index.partial.html -->
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <!--        <link rel="stylesheet" href="/css/css.css" />-->
+	
+  
+  <title>C.D Al-Andalus Torremolinos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="icon" type="image/gif" href="image/logo.jfif">
+	
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap core CSS -->
+<link href="carousel.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/4fd5dbfee9.js" crossorigin="anonymous"></script><!--iconos-->
+	
+
+
+  <meta name="keywords" content="al-andalus Torremolinos, deporte discapacidad, natación, discapacidad intelectural, deporte para personas con discapacidad intelectural, club deporte para discapacitados intelectuales">
+  <meta name="description" content="El Club Deportivo Al-andalus Torremolines está pesado para la practica deportiva y de competición para deportistas con discapacidad intelectual">
+	
+
+
+<style>								<!--************ Inicio Styel-->
+	
+body{
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	/*background-color: #F3FDDF;*/
+	}
+	
+header {
+ /* background: rgba(0,0,0,0.9);
+  width: 100%;
+  position: fixed;
+  z-index: 100;*/
+}
+	
+.container-fluid {
+  max-width: 1700px;
+}	
+p {
+  margin-bottom: 20px;
+}	
+/*	
+.carousel.carousel-fade .carousel-item {
+    display: block;
+    opacity: 0;
+    transition: opacity ease-out 1.7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+    opacity: 1 !important;
+*/	
+}
+.centrar{
+    margin:auto;
+    display:block;
+    }
+</style>								<!--************ Inicio Styel-->
+	
+
+</head>
+
+	
+	
+<body>														<!--******** INICIO BODY-->
+
+<img src="./image/Encabezado.png" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
+
+<div class="container-fluid">
+	
+	
+<header>														<!--************* Inicio del MENU   ****************-->
+<nav>
+    <!-- Start - nav - dropdown menu - body -->
+    <ul class="nav-dropdown-menu-body">
+      <!-- Start - nav - dropdown menu - toggle -->
+      <li class="nav-dropdown-menu-toggle-link">
+        <label for="tm">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+          Menu
+          <span class="nav-dropdown-menu-toggle-dropicon-bottom">▾</span>
+        </label>
+      </li>
+      <!-- End ___ nav - dropdown menu - toggle -->
+		
+      <!-- Start - nav - dropdown menu - main -->
+      <li>
+        <input type="checkbox" id="tm" />
+        <ul class="nav-dropdown-menu-main cf">
+			
+          <!-- *** Start - Inicio -->
+          <li class="nav-dropdown-menu-title-link darkerli">
+            <a href="index.html"><i class="fas fa-university"></i><span class="nav-dropdown-menu-text-after-icons"> Inicio</span></a>
+          </li>
+          <!-- *** End ___ Inicio -->
+			
+			
+			
+
+
+<!-- Start - *** Zona Técnica -->
+          <li class="nav-dropdown-menu-title-link darkerli">
+            <a href="#"><i class="fa-solid fa-person-swimming" style="color:lightblue;"></i><span class="nav-dropdown-menu-text-after-icons">Zona Técnica</span>
+              <span class="nav-dropdown-menu-dropicon-bottom">▾</span>
+            </a>
+            <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm27">▾</label>
+            <!-- Start - nav - dropdown menu - Staff - Box -->
+            <input type="checkbox" id="sm27" />
+            <ul class="nav-dropdown-menu-submenu">
+              <!-- Start - nav - dropdown menu - Staff - Natación  -->
+              <li>
+                <a href="#"><i class="fas fa-swimmer" style="color:lightblue;"></i>Natación 				<!-- Start - *** Natación -->
+                  <span class="nav-dropdown-menu-dropicon-right">▸</span>
+                </a>
+                <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm28">▾</label>
+                <!-- Start - nav - dropdown menu - Staff - Employment  - Links -->
+                <input type="checkbox" id="sm28" />
+                <ul class="nav-dropdown-menu-submenu">
+                  <li>
+                    <a href="crol.html" target="_blank">Crol</a>
+                  </li>
+                  <!--<li>
+                    <a href="#">Braza</a>
+                  </li>-->
+                  <!--<li>
+                    <a href="#">Espalda</a>
+                  </li>-->
+<!--				  <li>
+                    <a href="#">Mariposa</a>
+                  </li>-->
+
+					
+                </ul>
+                <!-- End ___ nav - dropdown menu - Staff - Employment  - Links -->
+              </li>
+              <!-- End ___ nav - dropdown menu - Staff - Employment  -->
+              <!-- Start - nav - dropdown menu - Staff - Benefits -->
+              <li>
+                <a href="#">Atletismo
+                  <span class="nav-dropdown-menu-dropicon-right">▸</span>
+                </a>
+                <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm29">▾</label>
+                <!-- Start - nav - dropdown menu - Staff - Benefits - Links -->
+                <input type="checkbox" id="sm29" />
+                <ul class="nav-dropdown-menu-submenu">
+<!--                  <li>
+                    <a href="#">100 m Libres</a>
+                  </li>-->
+
+
+                </ul>
+                <!-- End ___ nav - dropdown menu - Staff - Benefits - Links -->
+              </li>
+              <!-- End ___ nav - dropdown menu - Staff - Benefits -->
+              <!-- Start - nav - dropdown menu - Staff - Key Initiatives  -->
+              <li>
+                <a href="#">Padel
+                  <span class="nav-dropdown-menu-dropicon-right">▸</span>
+                </a>
+                <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm30">▾</label>
+                <!-- Start - nav - dropdown menu - Staff - Key Initiatives  - Links -->
+                <input type="checkbox" id="sm30" />
+                <ul class="nav-dropdown-menu-submenu">
+                  <li>
+                    <a href="https://www.feddi.org/wp-content/uploads/2024/02/NORMATIVA-TECNICA-PADEL-FEDDI.pdf" target="_blank">Reglamento</a>
+                  </li>
+<!--                  <li>
+                    <a href="#">Técnica</a>
+                  </li>-->
+
+
+                </ul>
+                <!-- End ___ nav - dropdown menu - Staff - Key Initiatives  - Links -->
+              </li>
+              <!-- End ___ nav - dropdown menu - Staff - Key Initiatives  -->
+				
+             
+              <li> <!-- Start - nav - dropdown menu - Staff - Montaña -->
+                <a href="#">Esquí <span class="nav-dropdown-menu-dropicon-right">▸</span> </a>
+               
+                <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm31">▾</label>
+                <!-- Start - nav - dropdown menu - Staff - Resources - Links -->
+                <input type="checkbox" id="sm31" />
+                <ul class="nav-dropdown-menu-submenu">
+					
+
+                    
+                </ul> <!-- End ___ nav - dropdown menu - Staff - Resources - Links -->
+               
+              </li><!-- End ___ nav - dropdown menu - Staff - Montaña -->
+              
+
+				
+              <li> <!-- Start - nav - dropdown menu - Staff - Ajedrez -->
+                <a href="./ajedrez.html">Ajedrez <span class="nav-dropdown-menu-dropicon-right"></span></a>
+
+              </li><!-- End ___ nav - dropdown menu - Staff - Ajedrez -->				
+				
+				
+				
+				
+            </ul>
+            <!-- End ___ nav - dropdown menu - Staff - Box -->
+          </li>
+			
+			<!-- End ___ *** Zona Técnica -->
+
+<!-- Start - *** Eventos -->
+          <li class="nav-dropdown-menu-title-link darkerli">
+            <a href="#"><i class="fas fa-running"></i><span class="nav-dropdown-menu-text-after-icons">Eventos</span>
+              <span class="nav-dropdown-menu-dropicon-bottom">▾</span>
+            </a>
+            <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm33">▾</label>
+            <!-- Start - nav - dropdown menu - Athletics - Box -->
+            <input type="checkbox" id="sm33" />
+            <ul class="nav-dropdown-menu-submenu">
+              <!-- Start - nav - dropdown menu - Athletics - Links -->
+              <li>
+                <a href="eventos-natacion.html">Natación</a>
+              </li>
+              <li>
+                <a href="#">Atletismo</a>
+              </li>
+              <li>
+                <a href="#">Padel</a>
+              </li>
+              <li>
+                <a href="#">Esquí</a>
+              </li>
+              <!-- End ___ nav - dropdown menu - Athletics - Links -->
+            </ul>
+            <!-- End ___ nav - dropdown menu - Athletics - Box -->
+          </li>
+          <!-- End ___ *** Eventos -->
+			
+			
+			
+ <!-- Start - *** Actividades -->
+          <li class="nav-dropdown-menu-title-link darkerli">
+            <a href="#"><i class="fas fa-graduation-cap"></i><span class="nav-dropdown-menu-text-after-icons">Actividades</span>
+              <span class="nav-dropdown-menu-dropicon-bottom">▾</span>
+            </a>
+            <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm34">▾</label>
+            <!-- Start - nav - dropdown menu - Academics - Box -->
+            <input type="checkbox" id="sm34" />
+            <ul class="nav-dropdown-menu-submenu">
+              <!-- Start - nav - dropdown menu - Academics - Links -->
+              <li>
+                <a href="#">Act. Várias</a>
+              </li>
+
+
+              <!-- End ___ nav - dropdown menu - Academics - Links -->
+            </ul>
+            <!-- End ___ nav - dropdown menu - Academics - Box -->
+          </li>
+          <!-- End ___ *** Actividades -->
+	
+			
+			
+			
+			
+			
+
+ <!-- Start - *** Cursos -->
+          <li class="nav-dropdown-menu-title-link darkerli">
+            <a href="#"><i class="far fa-calendar-alt"></i><span class="nav-dropdown-menu-text-after-icons">Cursos</span>
+              <span class="nav-dropdown-menu-dropicon-bottom">▾</span>
+            </a>
+            <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm38">▾</label>
+            <!-- Start - nav - dropdown menu - Event - Box -->
+            <input type="checkbox" id="sm38" />
+            <ul class="nav-dropdown-menu-submenu">
+              <!-- Start - nav - dropdown menu - Event - News -->
+              <li>
+                <a href="#">Natación
+                  <span class="nav-dropdown-menu-dropicon-right">▸</span>
+                </a>
+                <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm39">▾</label>
+                <!-- Start - nav - dropdown menu - Event - News - Links -->
+                <input type="checkbox" id="sm39" />
+                <ul class="nav-dropdown-menu-submenu">
+                  <li>
+                    <a href="#">Iniciación</a>
+                  </li>
+                  <li>
+                    <a href="#">Nivel Medio</a>
+                  </li>
+                  <li>
+                    <a href="#">Competición</a>
+                  </li>
+ 
+                </ul>
+                <!-- End ___ nav - dropdown menu - Event - News - Links -->
+              </li>
+              <!-- End ___ nav - dropdown menu - Event - News -->
+              <!-- Start - nav - dropdown menu - Stories -->
+              <li>
+                <a href="#">Atletismo
+                  <span class="nav-dropdown-menu-dropicon-right">▸</span>
+                </a>
+                <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm40">▾</label>
+                <!-- Start - nav - dropdown menu - Stories - Links -->
+                <input type="checkbox" id="sm40" />
+                <ul class="nav-dropdown-menu-submenu">
+                  <li>
+                    <a href="#">Carrera</a>
+                  </li>
+
+
+
+                </ul>
+                <!-- End ___ nav - dropdown menu - Stories - Links -->
+              </li>
+              <!-- End ___ nav - dropdown menu - Stories -->
+              <!-- Start - nav - dropdown menu - Events -->
+
+              <!-- Start - nav - dropdown menu - Links -->
+              <li>
+                <a href="#">Contactos</a>
+              </li>
+              <!-- End ___ nav - dropdown menu - Links -->
+            </ul>
+            <!-- End ___ nav - dropdown menu - Event - Box -->
+          </li>
+          <!-- End ___  *** Cursos  -->
+			
+			
+			
+			
+			
+
+          <!-- Start - *** Resultados -->
+          <li class="nav-dropdown-menu-title-link darkerli">
+            <a href="#"><i class="fas fa-photo-video"></i><span class="nav-dropdown-menu-text-after-icons">Resultados</span>
+              <span class="nav-dropdown-menu-dropicon-bottom">▾</span>
+            </a>
+            <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm51">▾</label>
+            <!-- Start - nav - dropdown menu - Gallery - Box -->
+            <input type="checkbox" id="sm51" />
+            <ul class="nav-dropdown-menu-submenu">
+              <!-- Start - nav - dropdown menu - Gallery - Links -->
+              <li>
+                <a href="resultados-natacion.html">Natación</a>
+              </li>
+              <li>
+                <a href="#">Atletismo</a>
+              </li>
+              <li>
+                <a href="#">Padel</a>
+              </li>
+				
+              <li>
+                <a href="#">Esquí</a>
+              </li>				
+				
+              <!-- End ___ nav - dropdown menu - Gallery - Links -->
+            </ul>
+            <!-- End ___ nav - dropdown menu - Gallery - Box -->
+          </li>
+          <!-- End ___ *** Galerias -->
+			
+			
+			
+			
+          <!-- Start - *** El club -->
+          <li class="nav-dropdown-menu-title-link darkerlishadowdown">
+            <a href="#"><i class="fas fa-id-card"></i><span class="nav-dropdown-menu-text-after-icons">El club</span>
+              <span class="nav-dropdown-menu-dropicon-bottom">▾</span>
+            </a>
+            <label title="Toggle Drop-down" class="nav-dropdown-menu-dropicon-bottom" for="sm52">▾</label>
+            <!-- Start - nav - dropdown menu - Contacts - Box -->
+            <input type="checkbox" id="sm52" />
+            <ul class="nav-dropdown-menu-submenu">
+              <!-- Start - nav - dropdown menu - Contacts - Links -->
+<!--              <li>
+                <a href="#">Historia</a>
+              </li>-->
+<!--              <li>
+                <a href="#">Equipo Técnico</a>
+              </li>-->
+<!--	          <li>
+                <a href="#">Instalaciones</a>
+              </li>-->
+<!--              <li>
+                <a href="#">Horarios</a>
+              </li>-->
+              <li>
+                <a href="./contacto.html">Contacto</a>
+              </li>						
+              <!-- End ___ nav - dropdown menu - Contacts - Links -->
+            </ul>
+            <!-- End ___ nav - dropdown menu - Contacts - Box -->
+          </li>
+          <!-- End ___ *** Contactos -->
+			
+			
+			
+			
+          <!-- Start -*** Descargas -->
+          <li class="nav-dropdown-menu-title-link darkerli">
+            <a href="#"><i class="fas fa-download"></i><span class="nav-dropdown-menu-text-after-icons">Descargas</span></a>
+          </li> 
+	 <!-- End ___*** Descargas -->		
+			
+			
+			
+		<!-- Start -*** Área Socios -->	
+          <li class="nav-dropdown-menu-title-link darkerli">
+            <a href="./login.html"><i class="fa-sharp fa-solid fa-users" style="color:lightblue;"></i><span class="nav-dropdown-menu-text-after-icons">Área Socios</span></a>
+          </li>
+          <!-- End ___ *** Área Socios -->
+			
+			
+        </ul>
+      </li>
+      <!-- End ___ nav - dropdown menu - main -->
+    </ul>
+    <!-- End ___ nav - dropdown menu - links -->
+  </nav>
+</header>														<!--******** FIN del MENU-->
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<br><br>
+<h4><p align="center"><strong>El Club Deportivo Al-Andalus Torremolinos, es una entidad sin ánimo de lucro, cuya finalidad es la promoción del deporte adaptado a personas que sufren una discapacidad intelectual o física. <br>
+	
+Entendemos que la práctica deportiva, así como la integración en un equipo, potencia de forma exponencial la autoestima, compañerismo, espíritu de sacrificio, constancia, concentración y capacidad de trabajo para conseguir unos objetivos.</strong></p></h4>
+
+<br>	
+<hr style="background-color:#103DE3; height: 5px">	<!--********** Division-->
+<br><br>		
+	
+<div class="row">						<!--INICIO  presentación-->
+		
+  <div class="col-lg-5">  <!--<div class="col-sm-4">-->
+
+   <img src="./image/Equipo-01.jpg" alt="Carrousel slide 1" width="auto" height="auto" class="d-block w-100">
+  </div>
+		
+  <div class="col-lg-7" style="padding-left: 50px">
+		
+	 	
+		
+	  
+	 <h2 style="color:#103DE3" align="left"; class="card-title"> Desde una actividad lúdica a deportista de alto nivel</h2>
+	  <br>
+	  
+<p align="justify">El Club Deportivo Al-Andalus Torremolinos trata de promocionar el deporte a personas con discapacidad, como una actividad saludable y necesaria para su desarrollo personal. En este sentido, se ofrece una amplia variedad de actividades lúdicas - deportivas para afianzar el espíritu de equipo, valores deportivos y por supuesto pasarlo bien.</p>
+	  
+<p align="justify">Siempre desde la variedad y la promoción de la salud física y mental, cada integrante muestra sus puntos fuertes, y es en esa faceta, donde guiado por un equipo técnico cualificado y especializado en este campo, donde se potencia esas habilidades del deportista con cursos especializados, principalmente en el área de la natación y el atletismo hasta alcanzar nivel de competición.</p>
+	  
+<p align="justify">Actualmente el club cuenta con una amplia representación de deportistas participando en convocatorias deportivas a nivel nacional e internacional, tanto en atletismo como en natación.</p>   
+	  
+
+		</div>
+		
+
+		
+</div>							<!--FIN  presentación-->
+	
+<br><br>	
+<hr style="background-color:#103DE3; height: 5px">	<!--********** Division-->
+<br><br>	
+	
+
+	
+
+	
+	<div class="row">						<!--INICIO  Natación-->
+		
+  		<div class="col-sm-8">
+
+	 <h2 style="color:#103DE3" align="left"; class="card-title"> Natación</h2>
+	  <br>
+
+<p align="justify">Durante todo el año ofertamos cursos de natación de iniciación y perfeccionamiento. Las ventajas de trabajar en un ambiente agradable como es la piscina, la psicomotricidad, coordinación, concentración, normas y valores deportivos, compañerismo, etc, tiene como resultado una evolución muy positiva en todos los casos.</p>
+
+	<p align="justify">Los cursos de especialización están diseñados para encaminar al deportista a participar en competiciones, en las 4 modalidades: estilo libre, braza, mariposa y espalda. 
+</p>
+	<p align="justify">Los entrenamientos y cursos, se desarrollan en las instalaciones del Pabellón Municipal de Deportes San Miguel de Torremolinos, en piscinas olímpicas de 50 m. simpre bajo la supervisión de sus entrenadores y con la vigilancia del equipo de socorristas de las instalaciones.</p>   
+			
+		</div>
+			
+  		<div class="col-sm-4">
+			<img src="./image/piscina-Torremolinos.jpg" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
+
+		</div>
+		
+
+	
+	</div>							<!--FIN  Natación-->
+	
+	
+<br><br>	
+<hr style="background-color:#103DE3; height: 5px">	<!--********** Division-->
+<br><br>		
+	
+
+	
+	
+	<div class="row">						<!--INICIO  Atletismo-->
+		
+  <div class="col-sm-4">
+
+<img src="./image/campeonato-españa-atletismo-adaptado.jpg" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
+		</div>
+		
+  <div class="col-sm-8">
+	  
+	 <h2 style="color:#103DE3" align="left"; class="card-title"> Atletismo</h2>
+	  <br>
+<p align="justify">Desde el club, se promociona el desarrollo de cursos de atletismo en una amplia variedad de modalidades y niveles, con objeto de potenciar las habilidades de nuestros deportistas.</p> 
+<p align="justify">Desde el punto de vista de la competición, se promociona la participación de nuestros deportistas en aquellas modalidades en las que se encuentren con mayor potencial, llegando a competir todos los años a nivel autonómico y nacional,con la aportación todos los años de varios deportistas en la selección Andaluza. </p>
+
+</div>
+	
+
+		
+	
+</div>							<!--FIN  Atletismo-->
+	
+<br><br>	
+<hr style="background-color:#103DE3; height: 5px">	<!--********** Division-->
+<br><br>		
+
+	
+	<div class="row">						<!--INICIO  Pádel-->
+		
+  		<div class="col-sm-8">
+
+	 <h2 style="color:#103DE3" align="left"; class="card-title"> Pádel</h2>
+	  <br>
+
+<p align="justify"> El Club Deportivo Al-andalus Torremolinos mantiene actualmente dos grupos de aproximadamente 4 deportistas cada uno, a los que se le imparte 1 hora a la semana de Pádel. Los alumnos reciben una formación que contribuye a su desarrollo físico y cognitivo,	reforzando su autonomía	personal a través del deporte, del juego y de la disciplina.</p>
+			
+		
+	<p align="justify"><strong>Niveles del Modelo de Enseñanza:</strong></p>
+			
+			
+	<p align="justify">Nivel 1.- Habilidades deportivas: este nivel está dirigido a aquellos jugadores con más dificultad tanto por su tipo de discapacidad como por el hecho de que no hayan tenido experiencia en ningún deporte de raqueta. La enseñanza en este nivel persigue, de forma progresiva a través de ejercicios, el trabajo sobre la coordinación, desplazamientos, golpes, y precisión. Con un  enfoque tanto terapéutico como  recreativo, el objetivo es conseguir que tras la primera fase de aprendizaje los jugadores establezcan una cierta continuidad en el juego, que les permita realizar una relativa competición (pádel con ayuda). </p>   
+	
+			
+			
+	<p align="justify">Nivel 2.- Pádel Adaptado: Enfocado a jugadores que ya hayan tenido alguna experiencia en deportes de raqueta y su tipo de discapacidad les permite cierta continuidad en el juego. En este nivel  la competición se realiza con reglamento modificado (vale más de un bote, menor cantidad de faltas de saque, etc</p>   		
+			
+			
+	<p align="justify">Nivel 3.-   Competición: este nivel está dirigido a aquellos jugadores que, a pesar de su discapacidad, tienen habilidades para jugar al pádel con el reglamento de juego oficial, es decir, sin ninguna modificación. 
+Esta metodología  incorpora novedosos elementos que contribuyen a la rápida obtención de resultados y a la mejoría del desarrollo físico y cognitivo de los alumnos.</p>   
+			
+			
+			
+			
+			
+			
+			
+		</div>
+			
+  		<div class="col-sm-4">
+			<img src="./image/Imagen-Pádel.jpeg" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
+
+		</div>
+		
+
+	
+	</div>							<!--FIN  Natación-->	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+<br><br>	
+<hr style="background-color:#103DE3; height: 5px">	<!--********** Division-->
+<br><br>			
+	
+	
+	
+	
+	
+	<div class="row">						<!--INICIO  Actividades-->
+		
+		
+  		<div class="col-sm-4">
+			<img src="./image/Julia-Luis.jpg" alt="Carrousel slide 1" width="300" height="auto" >
+
+		</div>
+				
+		
+  		<div class="col-sm-8">
+
+	 <h2 style="color:#103DE3" align="left"; class="card-title"> Actividades</h2>
+	  <br>
+
+<p align="justify">Desde el Club, se promociona una amplia variedad de actividades tipo esquí, vela, senderismo, carrera de orientación, petanca, etc. con objeto de potenciar las habilidades de nuestros deportistas y localizar sus puntos fuertes a la hora de potenciarlos. </p>
+
+		</div>
+			
+
+
+	
+	</div>							<!--FIN  Actividades-->
+		
+	
+<br><br>	
+<hr style="background-color:#103DE3; height: 5px">	<!--********** Division-->
+<br><br>		
+
+	
+
+<!--<footer class="container-fluid"  style="background-color: aquamarine">	-->
+<!--<footer class="container-fluid"  style="background-image:url('image/Pie-pagina.gif')">-->	
+
+	
+
+	 <h2 style="color:#103DE3" align="center"; class="card-title"> Patrocinadores</h2>									<!-- ******* Inicio Patrocinadores-->
+	  <br>
+	
+<p align="justify">Desde el Club Deportivo Al-Andalus Torremolinos queremos agradecer públicamente el apoyo y compromiso mostrado por cada una de las empresas y firmas patrocinadoras que colaboran con nuestro proyecto deportivo. Proyecto que se fundamenta en la promoción del deporte para personas con discapacidad intelectual, de cualquier edad, tanto la practica deportiva a nivel iniciación, priorizando la proción de la salud, como compitiendo al más alto nivel. </p>
+	
+<p align="justify">Somos concientes que sin el apoyo desinteresado de estas entidades, no ubiera sido posible los logras deportivos cosechados.</p>	
+	<br><br>
+	<div class="row">
+		
+  		<div class="col-sm-2">	
+			
+			<img src="./image/escudo-torremolinos.png" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
+			<h5 align="center"><a href="https://www.torremolinos.es/" target="_blank">Excmo. Ayuntamiento de Torremolinos</a></h5>			
+		</div>
+		
+  		<div class="col-sm-3">	
+		</div>		
+	
+		
+  		<div class="col-sm-2">	
+			
+			<img src="image/aguas-de-torremolinos-logotipo.png" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
+			<h5 align="center"><a href="https://www.aguasdetorremolinos.es/" target="_blank">Aguas de Torremolinos</a></h5>
+			
+		</div>	
+	
+		
+		<div class="col-sm-3">	
+		</div>	
+		
+  		<div class="col-sm-2">	
+			
+			<img src="image/logo-aliquindoi-transparente-300x294.png" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
+			<h5 align="center"><a href="https://clubaliquindoi.com/" target="_blank">Club de nado Aliquindoi</a></h5>
+			
+		</div>			
+		
+	<br>	
+
+
+		
+	</div>									<!-- ******* FIN Patrocinadores-->
+			
+	
+	
+	
+	
+	
+	
+	
+<br><br>	
+<!--<img src="./image/Pie-pagina.gif" alt="Carrousel slide 1" width="auto" height="auto" class="d-block w-100">	-->	
+	
+	
+	
+<hr style="background-color:#103DE3; height: 5px">	<!--********** INICIO PIE-->
+
+	<!--<footer class="container-fluid"  style="background-color: aquamarine">	-->						<!--************  PIE-->
+		<footer class="container-fluid">		
+	<div class="row">
+		
+	
+  <div class="col-sm-2">
+	  <img class="centrar" justify-content="center"; src="./image/logo.jfif"  width="120" title="logo" alt="logo">	
+		</div>
+		
+  <div class="col-sm-6">
+		
+
+		
+		<p align="justify"; style="color:#103DE3"; ><strong>Sobre nosotros</strong></p>
+	  <p align="justify"> Club Deportivo Al-Andalus Torremolinos<br>
+ Trabajamos con las personas con discapacidad por sus derechos y su participación en la sociedad.</p>
+<a href="./contacto.html" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Formulario de Contacto</a>		
+		</div>
+		
+  <div class="col-sm-4">
+	  <span align="justify"; style="color:#103DE3";><strong>Contactos</strong></span><br>
+	 <span align="justify"; style="color:#103DE3";>Pabellón Municipal de Deportes San Miguel</span><br> 
+<!--	<span align="justify"; style="color:#103DE3";>C/ Pedro Navarro Bruna.</span><br>
+<span align="justify"; style="color:#103DE3";>29620 Torremolinos</span><br>
+<span align="justify"; style="color:#103DE3";>Málaga</span><br>	  
+ <span align="justify"; style="color:#103DE3";>+34 55 555 55 55</span><br>-->
+
+<span align="justify"; style="color:#103DE3";>torremolino.alhandalus@gmail.com</span>
+
+		</div>
+
+
+		
+  <div class="col-sm-3">
+	
+		</div>
+		
+</div>	
+	
+
+			
+</footer>			<!--********** Fin PIE-->
+	
+	
+	
+
+	
+</div>		<!--Fin del container-fluid	-->
+	
+	
+    <!-- Option 1: Bootstrap Bundle with Popper -->	
+ <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+	
+	
+    <!-- Option 1: Bootstrap Bundle with Popper -->	
+	
+</body>
+
+<!--<iframe src="https://livetactics.chessbase.com" width="500" height="540" style="border:0"></iframe>-->	
+	
+	
+<!--<iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Europe%2FMadrid&showTabs=1&showCalendars=1&showTz=0&title=Eventos%20Club%20Al-%20Andalus&src=Zjk5MTQzODg1NmVjZWFkNWQyMmQ3OTgyMTQwY2M1ZjJkYjczNmY4ZmUxMjAxNzM5YWI5ZDAyYTA2ODRhNDFlOEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23D81B60" style="border:solid 1px #777" width="400" height="300" frameborder="0" scrolling="no"></iframe>-->	
+	
+	
+	
+	
+	
+</html>
+<!-- partial -->
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./js/script.js"></script>
+
+</body>
+</html>
