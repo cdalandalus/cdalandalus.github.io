@@ -333,6 +333,7 @@
   }
   .nav-dropdown-menu-body a {
     color: #626262; /*#626262;*/     /*Cambia el color del texto de todo el menu y sub*/
+	  /*font-size: 21px */              /*Cambia el tamañod de todas las letras*/
 	 /* background-color:  #D23D1E;*/ /*Cambia el color del fondo de todos los botones*/
   }
   .nav-dropdown-menu-main li:hover {
@@ -406,7 +407,7 @@
     background-color: #f1c40f;
     bottom: 0;
     content: "";
-    height: 3px;
+    height: 3px;   /*height: 3px;*/
     position: absolute;
     transition: width 0.2s ease-out;
     width: 0;
@@ -472,5 +473,14 @@
 
 body {
   font-family: "Strait", sans-serif;
+	font-size: 18px;
   padding: 0;
 }
+p {
+  margin-bottom: 20px;
+	font-size:20px;
+}	
+li {
+  margin-bottom: 20px;
+	font-size:20px;
+}	
