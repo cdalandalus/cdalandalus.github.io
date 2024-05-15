@@ -1,16 +1,7 @@
 <!DOCTYPE html>
 <html lang="es" >
 
-<!--<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Dropdown Menu - Responsive - 3 Mode - Multi Level Navigation Bar</title>
-  <link rel="stylesheet" href="./style.css">
 
-	
-</head>-->
-
-<!-- partial:index.partial.html -->
-<html lang="es">
 
 <head>
   <meta charset="UTF-8" />
@@ -18,6 +9,16 @@
 	
   
   <title>Club Al-Andalus Torremolinos</title>
+	
+	
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("0jRHWdKFnHHmOhJbR"); // Reemplaza con tu User ID de EmailJS
+        })();
+    </script>	
+	
+	
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="icon" type="image/gif" href="image/logo.jfif">
 	
@@ -91,7 +92,7 @@ body{
 	
 	
   <!--<form action="email/enviar-correo.php" method="post">-->
-  <form action="https://tfe.egi.uma.es/emaill/enviar-correo.php" method="post">  
+  <form id="contact-form">  
 	  
     <h2>Formulario de Contacto / <span style="color:#797D7F;">Contact Us</span></h2><br>
     <div class="row">
@@ -194,6 +195,39 @@ body{
 </div>        <!-- Fin container -->
 		  
 	  
+	
+
+	
+    <script type="text/javascript">
+        document.getElementById('contact-form').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Captura los datos del formulario
+            var templateParams = {
+                name: document.getElementById('nombre').value,
+				apellidos: document.getElementById('apellidos').value,
+				email: document.getElementById('email').value,
+                message: document.getElementById('contenido').value,
+				telefono: document.getElementById('telefono').value
+            };
+
+            // Envía el correo usando EmailJS
+            emailjs.send('service_ukrvnje', 'template_8j2m7qc', templateParams)
+                .then(function(response) {
+                    console.log('Correo enviado!', response.status, response.text);
+                    alert('Correo enviado!');
+                }, function(error) {
+                    console.log('Falló el envío del correo...', error);
+                    alert('Falló el envío del correo...');
+                });
+        });
+    </script>	
+	
+	
+	
+	
+	
+	
 	
 	
 	
