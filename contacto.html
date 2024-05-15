@@ -216,9 +216,11 @@ body{
                 .then(function(response) {
                     console.log('Correo enviado!', response.status, response.text);
                     alert('Correo enviado!');
+				window.history.back();
                 }, function(error) {
                     console.log('Falló el envío del correo...', error);
                     alert('Falló el envío del correo...');
+				window.history.back();
                 });
         });
     </script>	
