@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
             contenedor.innerHTML = this.responseText;
         }
     };
-    xhttp.open("GET", "/include/menu.html", true);
+    xhttp.open("GET", "../include/menu.html", true);
     xhttp.send();
 });
