@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
             contenedor.innerHTML = this.responseText;
         }
     };
-    xhttp.open("GET", "/cdalandalus.github.io/include/patrocinadores.html", true);
+    xhttp.open("GET", "/include/patrocinadores.html", true);
     xhttp.send();
 });
