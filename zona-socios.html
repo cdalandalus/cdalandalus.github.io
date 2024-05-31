@@ -1,21 +1,19 @@
-
-<?php
-
-if (isset($_POST["usuario"])) {
-    $usuario = $_POST["usuario"];  
-}
-
-if (isset($_POST["password"])) {
-    $password = $_POST["password"];  
-}
-
-
-?>
-
-
 <!DOCTYPE html>
 <html lang="es" >
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-FHT09PDSDV"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-FHT09PDSDV');
+</script>
+	
+	
+
+	
   <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum.scale=1.0, minimum-scale=1.0">
 	<link rel="icon" type="image/gif" href="./img/Logo_DEGDP_-_Color_WEB.gif">
@@ -38,28 +36,6 @@ EDIT ON
 
 <div class="container">	<!-- <div class="container-fluid"> -->
 
-<?php 
-
-if ($usuario == "torremolinos" && $password == "torremolinos") {
-	//echo "contraseña correcta";
-	
-	?>
-	
-	
-
-
-<?php
-echo "contraseña correcta";	
-}
-
-else {
-	//echo "ERROR";
-$refer = $_SERVER['HTTP_REFERER'];
-echo $refer;
-header("Location: $refer");
-
-}
-?>	
 		
 
 </div><!-- Fin container -->
