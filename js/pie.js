@@ -10,6 +10,6 @@ document.addEventListener("DOMContentLoaded", function() {
             contenedor.innerHTML = this.responseText;
         }
     };
-    xhttp.open("GET", "../include/pie.html", true);
+    xhttp.open("GET", "./include/pie.html", true);
     xhttp.send();
 });
