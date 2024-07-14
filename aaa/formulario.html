@@ -29,22 +29,28 @@
                 data[key] = value;
             });
 
-            fetch('https://script.google.com/macros/s/AKfycbzminLj1cilkel7o0KOW7psYM7CWAOEN1GihLEK6iMCcxE80XUVXbfCWpnnWs-XSLYi/exec', {
-                method: 'POST',
-                body: JSON.stringify(data),
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            }).then(response => response.json()).then(response => {
-                if (response.status === 'success') {
-                    alert('Inscripción enviada con éxito');
-                } else {
-                    alert('Error al enviar la inscripción: ' + response.message);
-                }
-            }).catch(error => {
-                alert('Error al enviar la inscripción');
-                console.error('Error:', error);
-            });
+fetch('https://script.google.com/macros/s/AKfycbzYIomc67UwHaxSI_NTFKZIxf47LcpQ6zqW1VE1ovc6m-by2024Qa1X6NwP3H_jCHvA/exec', {
+    method: 'POST',
+    body: JSON.stringify(data),
+    headers: {
+        'Content-Type': 'application/json'
+    }
+}).then(response => {
+    console.log('Raw response:', response); // Agrega esta línea
+    return response.json();
+}).then(response => {
+    const responseDiv = document.getElementById('response');
+    console.log('Parsed response:', response); // Agrega esta línea
+    if (response.status === 'success') {
+        responseDiv.innerHTML = 'Inscripción enviada con éxito';
+    } else {
+        responseDiv.innerHTML = 'Error al enviar la inscripción: ' + response.message;
+    }
+}).catch(error => {
+    const responseDiv = document.getElementById('response');
+    responseDiv.innerHTML = 'Error al enviar la inscripción: ' + error.message;
+    console.error('Error:', error);
+});
         }
     </script>
 </body>
