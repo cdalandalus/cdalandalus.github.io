@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inscripción a Evento Deportivo</title>
+</head>
+<body>
+    <h2>Formulario de Inscripción</h2>
+    <form id="registrationForm">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="age">Edad:</label>
+        <input type="number" id="age" name="age" required><br><br>
+        
+        <label for="event">Evento:</label>
+        <input type="text" id="event" name="event" required><br><br>
+        
+        <input type="button" value="Enviar" onclick="submitForm()">
+    </form>
+    <script>
+        function submitForm() {
+            const form = document.getElementById('registrationForm');
+            const formData = new FormData(form);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+
+            fetch('https://script.google.com/macros/s/AKfycbzminLj1cilkel7o0KOW7psYM7CWAOEN1GihLEK6iMCcxE80XUVXbfCWpnnWs-XSLYi/exec', {
+                method: 'POST',
+                body: JSON.stringify(data),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            }).then(response => response.json()).then(response => {
+                if (response.status === 'success') {
+                    alert('Inscripción enviada con éxito');
+                } else {
+                    alert('Error al enviar la inscripción: ' + response.message);
+                }
+            }).catch(error => {
+                alert('Error al enviar la inscripción');
+                console.error('Error:', error);
+            });
+        }
+    </script>
+</body>
+</html>
