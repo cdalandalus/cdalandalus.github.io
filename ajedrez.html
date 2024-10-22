@@ -31,7 +31,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/4fd5dbfee9.js" crossorigin="anonymous"></script><!--MIO-->
 	
-  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
   <title>Página web para el aprendizaje de Ajedrez para personas con discapacidad intelectual y sus familias</title>
   <meta name="keywords" content="técnica ajedrez, ajedrez para personas con discapacidad, al-andalus Torremolinos, ajedrez, deporte discapacidad, discapacidad intelectural, deporte para personas con discapacidad intelectural, club deporte para discapacitados intelectuales">
   <meta name="description" content="Desde el el Club Deportivo Al-andalus Torremolines, se pretende impulsar la práctica de este deporte">
@@ -57,7 +57,7 @@ header {
 }	
 p {
   margin-bottom: 20px;
-	font-size:20px;
+	/*font-size:20px;*/
 }	
 /*	
 .carousel.carousel-fade .carousel-item {
@@ -78,9 +78,9 @@ p {
 .lista{
 	font-family: "Times New Roman", Times, serif;
 	line-height: 1;
-	font-size: 16px;
+	font-size: 18px;
 	}	
-	
+
 </style>								<!--************ Inicio Styel-->
 	
 
@@ -92,7 +92,7 @@ p {
 <img src="./image/Encabezado.png" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
 	
 
-
+<!--Ajedrez a la carta: https://www.youtube.com/@ajedrezalacarta/playlists-->
 	<br>
 
 	
@@ -104,7 +104,7 @@ p {
 <div class="container-fluid">	
 		
 
-<h2 style="color:#103DE3" align="center"; class="card-title">Ajedrez</h2>    <!--#103DE3-->
+<h2 style="color:#103DE3"; align="center"; class="card-title">Ajedrez</h2>    <!--#103DE3-->
 	
 
 	
@@ -121,13 +121,20 @@ p {
  </li>
  
  <li role="presentation" class="next">
-  <a href="#Aperturas" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
+  <a href="#Iniciacion" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
+   <span class="text">Iniciación</span>
+  </a>
+ </li>	
+	
+	
+ <li role="presentation">
+  <a href="#Aperturas" role="tab" id="samsa-tab1" data-toggle="tab" aria-controls="samsa1">
    <span class="text">Aperturas</span>
   </a>
  </li>		
 	
- <li role="presentation" class="next">
-  <a href="#Medio_Juego" role="tab" id="profile-tab" data-toggle="tab" aria-controls="profile">
+ <li role="presentation">
+  <a href="#Medio_Juego" role="tab" id="samsa-tab2" data-toggle="tab" aria-controls="samsa1">
    <span class="text">Medio Juego</span>
   </a>
  </li>
@@ -135,11 +142,19 @@ p {
 	
 	
  <li role="presentation">
-  <a href="#Finales" role="tab" id="samsa-tab1" data-toggle="tab" aria-controls="samsa1">
+  <a href="#Finales" role="tab" id="samsa-tab3" data-toggle="tab" aria-controls="samsa1">
    <span class="text">Finales</span>
   </a>
  </li>
- 
+
+ <li role="presentation">
+  <a href="#Avanzado" role="tab" id="samsa-tab4" data-toggle="tab" aria-controls="samsa1">
+   <span class="text">Avanzado</span>
+  </a>
+ </li>
+	
+
+	
 </ul> 													<!--************* FIN distribucion Menu Tab  *************-->
 
 <div id="myTabContent" class="tab-content">		                               <!--************* INICIO contenido Menu Tab  *************-->
@@ -148,46 +163,88 @@ p {
 	
  <div class="row">	<!-- **** 1º - Primera Distribución -->	
 
-	<div class="col-lg-8">
-		<br>
+	<div class="col-lg-8"><br>
 		
-		
-		
-		
-		
-		
-		<p style="text-align: justify">El ajedrez está considerado como el deporte de la mente, y como cualquier otro músculo, necesita ser ejercitado. No es necesario jugar bien para practicar este deporte, el hecho en sí de practirlo, a cualquier nivel es suficiente para que nos aporte beneficios, tanto en el desarrollo de la inteligencia, agilidad mental y concentración.</p>
-		<p style="text-align: justify">Este deporte no está considerado por FEDDI (Federación Española de Discapacitados Intelectuales), cosa que no entiendo, por los beneficios que aporta al colectivo. En mi opinión, la mayoría de las personas y ciertos colectivos, relacionan discapacidad intelectual (capacidades distintas) con minusvalía intectual. </p>	
-		
+		<p style="text-align: justify">El ajedrez está considerado como el deporte de la mente, y como cualquier otro músculo, necesita ser ejercitado. No es necesario jugar bien para practicar este deporte, el hecho en sí de practicarlo, a cualquier nivel es suficiente para que nos aporte beneficios, tanto en el desarrollo de la inteligencia, agilidad mental y concentración.</p>
+		<p style="text-align: justify">Este deporte no está considerado por FEDDI (Federación Española de Discapacitados Intelectuales), cosa que no entiendo, por los beneficios que aporta al colectivo. En mi opinión, la mayoría de las personas y ciertos colectivos, relacionan discapacidad intelectual (capacidades distintas) con minusvalía intelectual. </p>	
 
-		
-		
-		
 	<ul class="lista">
-		<li><a href="https://www.tigre.gob.ar/public/files/educacion/AJEDREZ-1.pdf" target="_blank">Normas básicas del Ajedrez</a></li>		
+		<li><a href="https://www.tigre.gob.ar/public/files/educacion/AJEDREZ-1.pdf" target="_blank">Normas básicas del Ajedrez pdf</a></li>		
+
+		<li><a href="https://www.youtube.com/watch?v=e67uOQaZlHI&t=292s" target="_blank">Canal Extremadura: El ajedrez como deporte inclusivo</a></li>
 
 	</ul>	
 		<p style="text-align: justify">A la derecha se ha insertado un tablero donde tenemos que encontrar el mejor movimiento. No se trata de acertar moviendo al azar, consiste en pensar.</p>
-		
-		
+
 	</div>	
-	
 	
 	<div class="col-lg-4">
 		<br>
 		<iframe src="https://livetactics.chessbase.com" width="500" height="540" style="border:0"></iframe>
 
-
-		
-		
 	</div>		
-	
 
-	
-	
 </div>		
 
 </div>
+	
+	
+	
+	
+	
+<div role="tabpanel" class="tab-pane fade" id="Iniciacion" aria-labelledby="profile-tab">		<!--************* Iniciación  *************-->
+ <div class="row">		
+	<div class="col-lg-6">		
+		<br>
+		
+		
+	<p style="color:#000000" align="justify"><u>Rey Enigma: Cursos de Iniciación</u></p>
+	<ul class="lista">
+		<li><a href="https://www.youtube.com/watch?v=bNVE8IE5Jnc&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=2" target="_blank">Cómo leer el TABLERO de Ajedrez</a></li>	
+		<li><a href="https://www.youtube.com/watch?v=jGF0g_8rAMc&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=3" target="_blank">Nombre de las PIEZAS de Ajedrez</a></li>
+		<li><a href="https://www.youtube.com/watch?v=dYmOyd4jQSM&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=16" target="_blank">El VALOR de las PIEZAS de AJEDREZ</a></li>
+		<li><a href="https://www.youtube.com/watch?v=IbwKgwMUcgo&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=4" target="_blank">Cómo se mueve la TORRE en Ajedrez</a></li>
+		<li><a href="https://www.youtube.com/watch?v=CTxECzos8a0&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=10" target="_blank">CÓMO MUEVE el ALFIL en Ajedrez</a></li>
+		<li><a href="https://www.youtube.com/watch?v=VtPfJurMixw&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=12" target="_blank">MOVIMIENTOS de la DAMA en Ajedrez</a></li>
+		<li><a href="https://www.youtube.com/watch?v=JKFAtxg9N0M&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=5" target="_blank">Movimientos del REY en Ajedrez</a></li>
+		<li><a href="https://www.youtube.com/watch?v=eC7gL_vVY7M&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=13" target="_blank">MOVIMIENTOS del CABALLO en Ajedrez </a></li>
+		<li><a href="https://www.youtube.com/watch?v=2TQBn5jnZVk&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=15" target="_blank">CÓMO SE MUEVE EL PEÓN EN AJEDREZ </a></li>
+		<li><a href="https://www.youtube.com/watch?v=Zr4dGuuzFYY&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=6" target="_blank">Cómo HACER JAQUE en Ajedrez</a></li>
+		<li><a href="https://www.youtube.com/watch?v=ZKUxG01Uerc&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=7" target="_blank">CÓMO hacer JAQUE MATE en Ajedrez</a></li>
+		<li><a href="https://www.youtube.com/watch?v=YPf9fSY_K2k&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=8" target="_blank">CÓMO DAR Jaque Mate con TORRE Y REY</a></li>
+		<li><a href="https://www.youtube.com/watch?v=rScknYuKqYY&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=9" target="_blank">¿Qué es REY AHOGADO en Ajedrez?</a></li>
+		<li><a href="https://www.youtube.com/watch?v=kqpjnlkWvmA&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=11" target="_blank">¿Qué es LA CLAVADA en Ajedrez?</a></li>
+		<li><a href="https://www.youtube.com/watch?v=-AHk5tBzfFg&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=14" target="_blank">CÓMO HACER ATAQUE DOBLE CON CABALLO</a></li>
+		<li><a href="https://www.youtube.com/watch?v=8HLD5Abzpqw&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=17" target="_blank">REGLAS del ENROQUE en AJEDREZ</a></li>
+		<li><a href="https://www.youtube.com/watch?v=izMJhC6gvHw&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=18" target="_blank">CAPTURA al PASO de AJEDREZ</a></li>	
+		<li><a href="https://www.youtube.com/watch?v=-yppyKOBTjk&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=19" target="_blank">¿Qué Significa TABLAS en AJEDREZ?</a></li>
+		<li><a href="https://www.youtube.com/watch?v=m5Di3rAaiAk&list=PLWgqlpb234bHv38g6zXoi3WIJJonzZSAl&index=20" target="_blank">3 JAQUE MATE FÁCILES</a></li>
+
+	</ul>	
+
+			
+		
+		
+	</div>							
+	 
+	<div class="col-lg-6">		
+		<br>
+		<!--<img class="img" src="image/viraje-crol.jpg" width="600" title="Natación estilo Croll" alt="natación estilo Croll">	-->	
+	</div>                     
+	 
+
+</div>	
+	
+ <br>
+
+</div>			<!--************* FIN Iniciación  *************-->
+	
+	
+	
+	
+
+	
+	
 	
 <div role="tabpanel" class="tab-pane fade" id="Aperturas" aria-labelledby="profile-tab">		<!--************* Aperturas  *************-->
 	<br>
@@ -255,48 +312,118 @@ p {
 	
 	
 <div role="tabpanel" class="tab-pane fade" id="Medio_Juego" aria-labelledby="profile-tab">		<!--************* Medio_Juego  *************-->
-
-	
- <div class="row">		
-
-	<div class="col-lg-6">		
-		<br><p>En Construcción.</p>
-	<ul>
-		<!--<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=9jLQEYUUXOY" target="_blank">Sikana: Aprende la técnica del viraje | Crol</a></li>-->
-	
-
-	</ul>	
-
-			
-		
-		
-	</div>						<!-- **** FIN - 1ºFila 1º Columna -->	
-	 
-	<div class="col-lg-6">		<!-- **** 1ºFila 2º Columna -->
-		<br>
-		<!--<img class="img" src="image/viraje-crol.jpg" width="600" title="Natación estilo Croll" alt="natación estilo Croll">	-->	
-	</div>                      <!-- **** FIN - 1ºFila 2º Columna -->
-	 
-
-</div>	
-	
  <br>
-
-</div>
 	
-<div role="tabpanel" class="tab-pane fade" id="Finales" aria-labelledby="dropdown1-tab">		<!--************* Finales  *************-->
+Medio Juego en Construcción
+
+
+</div><!--************* FIN Medio_Juego  *************-->
+	
+	
+
+	
+
+	
+	
+<div role="tabpanel" class="tab-pane fade" id="Finales" aria-labelledby="profile-tab">		<!--************* Finales  *************-->
 	
  <div class="row">	
 
 	<div class="col-lg-6">	
-		<br><p>En Construcción.</p>
-	<ul>
+		<br>
+			<p style="color:#000000" align="justify"><u>Ajedrez a la Carta - Finales</u></p>
 		
-		<!--<li><a class="dropdown-item" href="https://www.youtube.com/watch?v=PIuCjW9W3-A" target="_blank">USA Swimming: Esenciales de Natación: Salidas</a></li>-->
-      
+		<!--https://www.youtube.com/watch?v=01K5dolwN7Y&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi-->
 		
-	</ul>	
+<ul class="lista">
+	<li><a href="https://www.youtube.com/watch?v=01K5dolwN7Y&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi" target="_blank"> 1.-Posición de Lucena </a>
+		<a href="https://lichess.org/editor/6K1/4k1P1/8/8/8/8/5R2/7r_w_-_-_0_1?color=white" target="_blank"> -- Tablero</a></li>
+	
+	<li><a href="https://www.youtube.com/watch?v=5ZiI1rwJuuM&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=2" target="_blank"> 2.-Posición de Philidor. Defensa en la sexta fila en los finales de torre.</a>
+		<a href="https://lichess.org/editor/4k3/7R/r7/5K2/4P3/8/8/8_w_-_-_0_1?color=white" target="_blank"> -- Tablero</a></li>
+	
+	<li><a href="https://www.youtube.com/watch?v=VcUxuxIEWM4&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=3" target="_blank"> 3.-Rey y peón contra Rey</a>
+		<a href="https://lichess.org/editor/3k4/8/4P3/3K4/8/8/8/8_w_-_-_0_1?color=white" target="_blank"> -- Tablero</a></li>
+	
+	<li><a href="https://www.youtube.com/watch?v=uqokGktCokM&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=4" target="_blank"> 4.-Casillas críticas en el final Rey y peón contra Rey</a>
+		<a href="https://lichess.org/editor/5k2/8/8/8/8/2P5/8/3K4_w_-_-_0_1?color=white" target="_blank"> -- Tablero</a></li>
+	
+	<li><a href="https://www.youtube.com/watch?v=MW47gAwjjvs&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=5" target="_blank"> 5.-Peones bloqueados - Casillas críticas en los finales de peones</a>
+		<a href="https://lichess.org/editor/8/7k/3p4/3P3K/8/8/8/8_w_-_-_0_1?color=white" target="_blank"> -- Tablero</a></li>
+	
+	<li><a href="https://www.youtube.com/watch?v=Xev0wSdCYRA&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=6" target="_blank"> 6.-La técnica de la escalera (Final básico de Dama contra peón)</a>
+		<a href="https://lichess.org/editor/K7/8/8/8/8/7Q/3kp3/8_w_-_-_0_1?color=white" target="_blank"> -- Tablero</a></li>
+	
+	<li><a href="https://www.youtube.com/watch?v=4-veetr5IMk&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=7" target="_blank"> 7.-Excepción del peón de torre (Final de Dama contra peón)</a>
+		<a href="https://lichess.org/editor/K6Q/8/8/8/8/8/6kp/8_w_-_-_0_1?color=white" target="_blank"> -- Tablero</a></li>
+	
+	<li><a href="https://www.youtube.com/watch?v=jj9wbQPJ3lk&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=8" target="_blank"> 8.-Excepción del peón de alfil (Final de Dama contra peón)</a>
+		<a href="https://lichess.org/editor/K6Q/8/8/8/8/8/5pk1/8_w_-_-_0_1?color=white" target="_blank"> -- Tablero</a></li>
+	
+	<li><a href="https://www.youtube.com/watch?v=X_CpMhiM5Kc&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=9" target="_blank"> 9.-La Regla del cuadrado (Final Básico de Rey y peón contra Rey)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=SjmFY1k-9Bw&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=10" target="_blank"> 10.-El cuadrado errante o cuadrado común (técnica avanzada en los Finales de peones)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=jRFiC-RgWu4&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=11" target="_blank"> 11.-Khalifman y el cuadrado errante (Final de la partida Khalifman - Belikov, 1992)</a>
+		<a href="https://lichess.org/editor/8/2p3p1/2p2kP1/4pP1P/4K3/2P5/8/8_w_-_-_0_1?color=white" target="_blank"> -- Tablero</a></li>
+	
+	<li><a href="https://www.youtube.com/watch?v=hD5BRYpRE2k&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=12" target="_blank"> 12.-Defensa de Kling y Horwitz (defensa con la torre desde atrás)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=HpTg4Fmah-E&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=13" target="_blank"> 13.-La oposición distante y la conjugación rectangular (Finales de peones)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=F2-aoimwy9M&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=14" target="_blank"> 14.-Defensa pasiva con la torre que basta para hacer tablas (excepción del peón de caballo)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=5zi7ywOR-WY&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=15" target="_blank"> 15.-Torre y alfil contra torre (posición de Philidor)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=bZKtqkS6u3Y&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=16" target="_blank"> 16.-La triangulación (finales de peones)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=DyH1Q1QQJKs&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=17" target="_blank"> 17.-La defensa Cochrane (Torre y alfil contra torre)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=sb-VLjV-sI8&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=18" target="_blank"> 18.-Dama contra Torre (posición ganadora de Philidor, 1777)</a></li>
+	<li><a href="https://www.youtube.com/watch?v=gu5msWOA9cs&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=19" target="_blank"> 19.-Alfil y peón contra Alfil (Final de Centurini, s. XIX)</a></li>
+	<li><a href="https://www.youtube.com/watch?v=_7C28aMEpMg&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=20" target="_blank"> 20.-Un final de alfiles muy interesante</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=lc8dTMBYUfM&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=21" target="_blank"> 21.-Cómo hacer tablas con un caballo contra un peón muy avanzado</a></li>
+	<li><a href="https://www.youtube.com/watch?v=mD69O2aVXnY&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=22" target="_blank"> 22.-Increíble final que Grischuk no supo ganar y quedó eliminado de la Copa del Mundo, 2017</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=qp7qhdKdxK4&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=23" target="_blank"> 23.-Final de alfiles muy instructivo (alfil bueno contra alfil malo)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=KdKs_hZDxQs&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=24" target="_blank"> 24.-La casilla tonta del caballo (el peligroso peón de torre)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=q5kETdDiy4o&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=25" target="_blank"> 25.-Técnica para ganar en los finales de caballos (Kling, 1867)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=qkPrX2BWgzY&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=26" target="_blank"> 26.-Final de Alfil contra caballo (técnica del abanico)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=KYmFVvmlXeU&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=27" target="_blank"> 27.-Las casillas conjugadas en el final de alfil contra caballo interesante</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=6Bv7Y_veSXU&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=28" target="_blank"> 28.-Técnica ganadora en el Final de Caballo contra Alfil</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=47Ehe2K_06w&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=29" target="_blank"> 29.-Final muy instructivo de Caballo y peón de torre contra alfil</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=GsPhIktXyoo&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=30" target="_blank"> 30.-Final de torres muy instructivo. La torre por detrás del peón (Alekhine - Capablanca, 1927)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=uOkC-QnW3kE&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=31" target="_blank"> 31.-Los inconvenientes de poner la torre por delante del peón pasado</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=t7EEhxMwPfw&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=32" target="_blank"> 32.-Un final de torres realmente instructivo (Unzicker - Lundin, 1954)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=OwRAUUo7FK0&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=33" target="_blank"> 33.-La Defensa de Vancura</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=9bXHL3w1kLE&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=34" target="_blank"> 34.-Las casillas de Romanovsky</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=_kvm5ndFaNc&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=35" target="_blank"> 35.-La carga de los reyes (empujar con el hombro)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=C63YZLQ6ias&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=36" target="_blank"> 36.-Empujar con el hombro (Alekhine - Bogoljubov, 1929)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=E_2U0zl3Jeg&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=37" target="_blank"> 37.-Cómo defenderse en el final de Torre contra Caballo</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=kRfCH0W8d1c&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=38" target="_blank"> 38.-Final de torres muy instructivo y de mucha importancia práctica (Bisguier - Udovcic, 1955)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=8WyXVWLhtq0&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=39" target="_blank"> 39.-Empujar con el hombro en el final de torre contra peón (Mitrofanov)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=8QPSN5ltHOs&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=40" target="_blank"> 40.-Cómo hacer tablas en los finales de damas (posición de Lolli)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=2xoOX3LdcUc&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=41" target="_blank"> 41.-Recursos en los Finales de Damas Kling y Horwitz, 1851</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=pZ6jSOLhFKA&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=42" target="_blank"> 42.-Todo lo que debes saber sobre el final más difícil de ganar (Dama y peón contra Dama)</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=z-sMctXROKE&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=43" target="_blank"> 43.-Los caminos de los reyes, distancias y casillas conjugadas</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=c3bfHT0781w&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=44" target="_blank"> 44.-Todo lo que necesitas saber para ganar en los finales de caballos con muchos peones</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=hhjbEhcSCeI&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=45" target="_blank"> 45.-Todo lo que necesitas saber para ganar en los finales de alfiles con muchos peones</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=w6cvETZPR6I&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=46" target="_blank"> 46.-Lo que nunca debes hacer en los finales de Torres</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=DdWhIseGiYI&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=47" target="_blank"> 47.-pequeños detalles que marcan la diferencia en los finales de torre</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=WX34CHsHgPQ&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=48" target="_blank"> 48.-Cómo dar mate con sólo un caballo</a></li>	
+	<li><a href="https://www.youtube.com/watch?v=b69f0cgdQ9s&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=49" target="_blank"> 49.-Cómo ganar en los finales de alfiles de distinto color (Tarrasch)</a></li>			
+		
+		
+		
 
+	<li><a href="https://www.youtube.com/watch?v=DjKPO0bHN9Y&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=50" target="_blank"> 50.-Todo lo que necesitas saber sobre los finales de alfiles de distinto color con los peones en la quinta</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=ykWijNiwXS0&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=51" target="_blank"> 51.-Un final de alfiles muy interesante (conoce el método ganador)</a></li>		
+	<li><a href="https://www.youtube.com/watch?v=FniDHtogULA&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=52" target="_blank"> 52.-Carreras de relevos en los finales de peones</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=ojD-D5x5YTk&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=53" target="_blank"> 53.-Torre contra peones en la 6ª fila (Estudio de Sapero)</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=gSAsHQLVEZQ&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=54" target="_blank"> 54.-Cuándo el Alfil tiene ventaja contra el Caballo (Stoltz - Kashdan, La Haya 1928)</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=YVSqjNa2cXU&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=55" target="_blank"> 55.-Cuando el Caballo tiene ventaja contra el Alfil (Averbach - Lilienthal, Moscú 1949)</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=VNNYzzk0wIc&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=56" target="_blank"> 56.-Final de torres muy interesante (Löwenfish - Botvinnik, Leningrado 1937)</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=-v1SodFoinw&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=57" target="_blank"> 57.-La batalla entre el Caballo bueno y el Alfil malo</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=fNROiOtLdes&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=58" target="_blank"> 58.-Casillas clave, zonas de invasión, oposición y casillas conjugadas</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=Lrg5TkooSzI&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=59" target="_blank"> 59.-Final de caballos muy interesante (Estudio de Bron, 1948)</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=1sbqoNKInQM&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=60" target="_blank"> 60.-Hay que mantener la concentración hasta el final (Final de torre contra peón: Huerga - Rizouk, 2009)</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=QAl2v3wlUtM&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=61" target="_blank"> 61.-Un recurso defensivo muy útil en los finales de torres</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=F9Dusc524SQ&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=62" target="_blank"> 62.-Los peones bloqueados son débiles (Kling y Horwitz, 1851)</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=Fdg41nseKss&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=63" target="_blank"> 63.-Cómo ganar con el alfil equivocado (Kling y Horwitz, 1851)</a></li>			
+	<li><a href="https://www.youtube.com/watch?v=LTZU2gr9fSo&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi&index=64" target="_blank"> 64.-Final de caballos con mejor estructura de peones (Botvinnik - Keres, 1948)</a></li>			
+		
+</ul>	
 	</div>						
 	 
 	<div class="col-lg-6">		
@@ -304,12 +431,42 @@ p {
 		<!--<img class="img" src="image/salida.jpeg" width="600" title="Natación estilo Croll" alt="natación estilo Croll">		-->
 	</div>                     
 </div>	
- <br>	
 
 
-</div>
+
+</div>		<!--************* FIN Finales  *************-->
+	
+	
+		<!--https://www.youtube.com/watch?v=01K5dolwN7Y&list=PLMWPPmJLOBgZasOpKFv7hC5WXAGAvTFKi-->
+		<!--https://www.youtube.com/@ajedrezalacarta/playlists-->	
+	
+	
+
+<div role="tabpanel" class="tab-pane fade" id="Avanzado" aria-labelledby="dropdown1-tab">		<!--************* Avanzado  *************-->
+ <br>
+<div class="row">	
+	<div class="col-lg-6">	
+			<p style="color:#000000" align="justify"><u>Ajedrez a la Carta - Libros de Ajedrez</u></p>
+		
+
+		
+<ul class="lista">
+	<li><a href="https://www.youtube.com/watch?v=N6qhA6zP8R8&list=PLMWPPmJLOBgZEEoQsg9s0bn9HIChHToIK" target="_blank">54 videos.-Ajedrez a la Carta - Libros de Ajedrez</a></li>	
+</ul>	
+		
+	</div>						
+	 
+	<div class="col-lg-6">		
+		<br>
+		<!--<img class="img" src="image/salida.jpeg" width="600" title="Natación estilo Croll" alt="natación estilo Croll">		-->
+	</div>                     
+</div>	
 
 
+
+
+</div>	<!--************* FIN Avanzado  *************-->
+	
 
 
 
