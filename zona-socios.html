@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="es" >
+<html lang="es">
 <head>
-<!-- Google tag (gtag.js) -->
+	
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FHT09PDSDV"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -9,48 +9,131 @@
   gtag('js', new Date());
 
   gtag('config', 'G-FHT09PDSDV');
-</script>
+</script>	
 	
 	
-
+  <meta charset="UTF-8" />
+  <title>Zona Privada para Socios</title>
 	
-  <meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum.scale=1.0, minimum-scale=1.0">
-	<link rel="icon" type="image/gif" href="./img/Logo_DEGDP_-_Color_WEB.gif">
-  <title>L. Prototipado</title>
-	
-	<link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="style.css">
-
-
-	<style>
-HTML CSSResult
-EDIT ON
-
-</style>	
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/gif" href="image/logo.jfif">
 	
 
+	  <!-- Bootstrap core CSS -->
+<link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="carousel.css" rel="stylesheet">
+<link rel="stylesheet" href="./css/style.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/4fd5dbfee9.js" crossorigin="anonymous"></script><!--MIO-->
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  
+  <meta name="keywords" content="técnica ajedrez, ajedrez para personas con discapacidad intelectual, al-andalus Torremolinos, ajedrez, deporte discapacidad, discapacidad intelectural, deporte para personas con discapacidad intelectural, club deporte para discapacitados intelectuales">
+  <meta name="description" content="Desde el el Club Deportivo Al-andalus Torremolines, se pretende impulsar la práctica de este deporte">	
+	
+	
+	
+	
+	
+    <style>
+        /* Estilos para el formulario */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /*height: 100vh;*/
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #1d2b64, #f8cdda);
+        }
+
+        #login-container {
+            background-color: #ffffff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+			
+        }
+
+        h2 {
+            color: #333;
+            margin-bottom: 1rem;
+        }
+
+        input[type="password"] {
+            width: 100%;
+            padding: 0.8rem;
+            margin: 0.5rem 0;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 2.5rem;
+        }
+
+        button {
+            width: 100%;
+            padding: 0.8rem;
+            margin-top: 1rem;
+            background-color: #1d2b64;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 2rem;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #143049;
+        }
+
+        #main-content {
+            display: none;
+            padding: 2rem;
+            text-align: center;
+            font-size: 2.2rem;
+            color: #1d2b64;
+        }
+    </style>
+	
 </head>
 	
 <body>
+    <!-- Contenedor del formulario de login -->
+    <div id="login-container">
+        <h2>Acceso a la página</h2>
+        <input type="password" id="password" placeholder="Ingresa tu contraseña">
+        <button onclick="checkPassword()">Ingresar</button>
+    </div>
 
-<div class="container">	<!-- <div class="container-fluid"> -->
-
+    <!-- Contenido principal que se muestra solo si la contraseña es correcta -->
+    <div id="main-content">
+        <h2>Zona Privada del Club</h2>
+       
 		
 
-</div><!-- Fin container -->
+<!--			<a class="dropdown-item" href="https://docs.google.com/document/d/1JjpdqML2M8TdF-EdzdzyzDOlbpKiwvncMXeVojxjbWE/edit?usp=sharing" target="_blank">  <img src="../image/icono-de-descarga-documento.png" alt="icono de descargas" width="30" height="auto" ></a>	-->
 		
-		
-		
-		<!-- </div>cerramos container -->
-<!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-	
-<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js'></script>
-	
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta/js/bootstrap.min.js'></script>
-	
-<script  src="./script.js"></script>
+				<a class="dropdown-item" href="https://docs.google.com/document/d/1JjpdqML2M8TdF-EdzdzyzDOlbpKiwvncMXeVojxjbWE/edit?usp=sharing" target="_blank">Listado de Incripción</a>		
+    </div>
 
+    <script>
+        // Función para verificar la contraseña
+        function checkPassword() {
+            const passwordInput = document.getElementById("password").value;
+            const correctPassword = "ole"; // Cambia esta contraseña según lo que desees
+
+            if (passwordInput === correctPassword) {
+                // Si la contraseña es correcta, muestra el contenido principal y oculta el formulario
+                document.getElementById("login-container").style.display = "none";
+                document.getElementById("main-content").style.display = "block";
+            } else {
+                // Si la contraseña es incorrecta, redirige a la página principal
+                alert("Contraseña incorrecta. Redirigiendo a la página principal.");
+                window.location.href = "index.html"; // Cambia "index.html" por la URL de tu página principal
+            }
+        }
+    </script>
 </body>
 </html>
