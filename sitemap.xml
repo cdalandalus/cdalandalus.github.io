@@ -13,6 +13,11 @@
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://cdalandalus.github.io/eventos.html</loc>
+  <lastmod>2024-09-20T06:39:41+00:00</lastmod>
+  <priority>1.00</priority>
+</url>		
+<url>
   <loc>https://cdalandalus.github.io/crol.html</loc>
   <lastmod>2024-08-10T21:36:32+00:00</lastmod>
   <priority>1.00</priority>
@@ -38,23 +43,13 @@
   <priority>1.00</priority>
 </url>
 <url>
-  <loc>https://cdalandalus.github.io/eventos-natacion.html</loc>
-  <lastmod>2024-05-27T13:39:41+00:00</lastmod>
-  <priority>1.00</priority>
-</url>
-<url>
-  <loc>https://cdalandalus.github.io/eventos-travesia.html</loc>
-  <lastmod>2024-07-02T13:39:41+00:00</lastmod>
-  <priority>1.00</priority>
-</url>	
-<url>
   <loc>https://cdalandalus.github.io/resultados-natacion.html</loc>
-  <lastmod>2024-08-18T22:38:16+00:00</lastmod>
+  <lastmod>2024-09-18T22:38:16+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://cdalandalus.github.io/resultados-travesia.html</loc>
-  <lastmod>2024-08-18T22:38:16+00:00</lastmod>
+  <lastmod>2024-09-18T22:38:16+00:00</lastmod>
   <priority>1.00</priority>
 </url>	
 <url>
@@ -78,8 +73,13 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://cdalandalus.github.io/eventos/2024-MiniOlimpiadas.html</loc>
-  <lastmod>2024-08-18T12:28:46+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
+  <loc>https://cdalandalus.github.io/delegaciones.html</loc>
+  <lastmod>2024-12-26T22:28:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>	
+<url>
+  <loc>https://cdalandalus.github.io/clasificacion-natacion.html</loc>
+  <lastmod>2024-12-27T00:28:46+00:00</lastmod>
+  <priority>1.00</priority>
+</url>		
 </urlset>
