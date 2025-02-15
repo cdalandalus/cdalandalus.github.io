@@ -37,14 +37,8 @@
 	  <!-- Bootstrap core CSS -->
 <link href="./assets/dist/css/bootstrap.min.css" rel="stylesheet">
 <link href="carousel.css" rel="stylesheet">
-
-
  <link rel="stylesheet" href="./css/style.css">
-
-
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-
  <script src="https://kit.fontawesome.com/4fd5dbfee9.js" crossorigin="anonymous"></script><!--MIO-->
 	
 	
@@ -72,35 +66,22 @@ body{
 </head>
 
 <body>
-	
 
+<img src="./image/Encabezado.png" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
 
+	<!--<?php include 'menu.php';?>-->
 
-<img src="./image/Encabezado.gif" alt="Carrousel slide 1" width="1200" height="auto" class="d-block w-100">
-	
-	
-	
-	
-	
-	<?php include 'menu.php';?>
-	
-	
-	
-	
-	
-	
-	
+<br>	
+<div class="container-fluid">		<!--**** Insertar Menu ********-->
+<div id="menu"></div>
+<script src="./js/menu.js"></script>	
+</div>	
+		
+
 <br>
-
-
 <div class="container">
-	
 
-	
-	<br><br>
-	
-	
-	
+
   <!--<form action="email/enviar-correo.php" method="post">-->
   <form id="contact-form">  
 	  
@@ -179,7 +160,7 @@ body{
 
 	  
       <label>
-        <input type="checkbox" value="Sure!" id="newsletter" required> Soy consciente de que mis datos serán tratados con pleno respeto a mi privacidad, tal y como se informa en el Reglamento (UE) 2016/679 <br>
+        <input type="checkbox" value="Sure!" id="newsletter" required> Soy consciente de que mis datos serán tratados con pleno respeto a mi privacidad<br>
 		<span style="color:#797D7F;">I am aware that my data will be treated in full respect of my privacy, such as reported in the Regulation (EU) 2016/679</span>  
       </label>	  
 		<br><br>
@@ -247,8 +228,12 @@ body{
 
 	
 	
-<br><br><br>
-<img src="./image/Pie-pagina.gif" alt="Carrousel slide 1" width="auto" height="auto" class="d-block w-100">	
+<br><br>
+<br>	
+<div class="container-fluid">		<!--**** Insertar Pie de Página ********-->
+<div id="pie"></div>
+<script src="./js/pie.js"></script>	
+</div>	
 	
 		
 	
@@ -262,11 +247,9 @@ body{
 	
     <!-- Option 1: Bootstrap Bundle with Popper -->	
 	
-</body>
 
-</html>
 <!-- partial -->
-  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script  src="./js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script><script  src="./js/script.js"></script>
 
 </body>
 </html>
