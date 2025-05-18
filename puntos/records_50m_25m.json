@@ -1573,7 +1573,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM1",
+        "clase": "S1",
         "tiempo": "4:52.88",
         "atleta": "Iyad Shalabi",
         "fecha": "2021-08-28",
@@ -1582,7 +1582,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM2",
+        "clase": "S2",
         "tiempo": "3:22.25",
         "atleta": "Gabriel Geraldo dos Santos Araujo",
         "fecha": "2025-03-22",
@@ -1591,7 +1591,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM3",
+        "clase": "S3",
         "tiempo": "2:40.19",
         "atleta": "Wenpan Huang",
         "fecha": "2016-09-16",
@@ -1600,7 +1600,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "2:21.17",
         "atleta": "Roman Zhdanov",
         "fecha": "2021-08-28",
@@ -1609,7 +1609,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM3",
+        "clase": "S3",
         "tiempo": "4:05.19",
         "atleta": "Josia Tim Alexander Topf",
         "fecha": "2024-06-02",
@@ -1618,7 +1618,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "3:33.01",
         "atleta": "Takayuki Suzuki",
         "fecha": "2014-04-25",
@@ -1627,7 +1627,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM5",
+        "clase": "S5",
         "tiempo": "2:46.55",
         "atleta": "Jincheng Guo",
         "fecha": "2023-08-03",
@@ -1636,7 +1636,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM6",
+        "clase": "S6",
         "tiempo": "2:37.31",
         "atleta": "Hong Yang",
         "fecha": "2024-08-30",
@@ -1645,7 +1645,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM7",
+        "clase": "S7",
         "tiempo": "2:28.19",
         "atleta": "Andrii Trusov",
         "fecha": "2023-07-31",
@@ -1654,7 +1654,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "2:20.01",
         "atleta": "Oliver Hynd",
         "fecha": "2016-09-17",
@@ -1663,7 +1663,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "2:12.03",
         "atleta": "Timothy Hodge",
         "fecha": "2024-06-12",
@@ -1672,7 +1672,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "2:05.63",
         "atleta": "Denys Dubrov",
         "fecha": "2018-08-18",
@@ -1681,7 +1681,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM11",
+        "clase": "S11",
         "tiempo": "2:18.01",
         "atleta": "Rogier Dorsman",
         "fecha": "2024-04-24",
@@ -1690,7 +1690,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM12",
+        "clase": "S12",
         "tiempo": "2:10.87",
         "atleta": "Danylo Chufarov",
         "fecha": "2013-08-14",
@@ -1699,7 +1699,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "2:02.03",
         "atleta": "Ihar Boki",
         "fecha": "2024-09-03",
@@ -1708,7 +1708,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM14",
+        "clase": "S14",
         "tiempo": "2:05.97",
         "atleta": "Nicholas Bennett",
         "fecha": "2024-05-17",
@@ -1717,7 +1717,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "5:09.54",
         "atleta": "Robert Griswold",
         "fecha": "2019-05-11",
@@ -1726,7 +1726,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "4:50.14",
         "atleta": "Timothy Hodge",
         "fecha": "2020-03-15",
@@ -1735,7 +1735,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "4:53.24",
         "atleta": "Ian Silverman",
         "fecha": "2014-02-01",
@@ -1744,7 +1744,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM11",
+        "clase": "S11",
         "tiempo": "5:04.31",
         "atleta": "John Morgan",
         "fecha": "1992-09-10",
@@ -1753,7 +1753,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM12",
+        "clase": "S12",
         "tiempo": "4:46.81",
         "atleta": "Enrique Floriano",
         "fecha": "2011-04-28",
@@ -1762,7 +1762,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "4:54.71",
         "atleta": "Sean Russo",
         "fecha": "2015-04-16",
@@ -1771,7 +1771,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM14",
+        "clase": "S14",
         "tiempo": "4:43.52",
         "atleta": "Long Tin Chan",
         "fecha": "2019-10-14",
@@ -3319,7 +3319,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM1",
+        "clase": "S1",
         "tiempo": "3:45.84",
         "atleta": "Ingrid Thunem",
         "fecha": "2014-04-26",
@@ -3328,7 +3328,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM2",
+        "clase": "S2",
         "tiempo": "4:40.44",
         "atleta": "Teresa Perales",
         "fecha": "2024-02-01",
@@ -3337,7 +3337,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM3",
+        "clase": "S3",
         "tiempo": "2:49.80",
         "atleta": "Leanne Smith",
         "fecha": "2022-04-07",
@@ -3346,7 +3346,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "2:32.03",
         "atleta": "Katie Kubiak",
         "fecha": "2025-04-24",
@@ -3355,7 +3355,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM3",
+        "clase": "S3",
         "tiempo": "4:56.49",
         "atleta": "Karen Breumso",
         "fecha": "2003-12-06",
@@ -3364,7 +3364,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "3:55.07",
         "atleta": "Gina Boettcher",
         "fecha": "2024-06-02",
@@ -3373,7 +3373,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM5",
+        "clase": "S5",
         "tiempo": "3:13.43",
         "atleta": "Natalia Ziani",
         "fecha": "2012-08-31",
@@ -3382,7 +3382,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM6",
+        "clase": "S6",
         "tiempo": "2:55.07",
         "atleta": "Maisie Summers-Newton",
         "fecha": "2024-06-02",
@@ -3391,7 +3391,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM7",
+        "clase": "S7",
         "tiempo": "2:48.43",
         "atleta": "Mallory Weggemann",
         "fecha": "2010-08-18",
@@ -3400,7 +3400,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "2:35.30",
         "atleta": "Brock Whiston",
         "fecha": "2019-09-14",
@@ -3409,7 +3409,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "2:25.22",
         "atleta": "Sophie Pascoe",
         "fecha": "2019-05-12",
@@ -3418,7 +3418,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "2:24.85",
         "atleta": "Chantalle Zijderveld",
         "fecha": "2021-09-03",
@@ -3427,7 +3427,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM11",
+        "clase": "S11",
         "tiempo": "2:37.77",
         "atleta": "Daria Lukianenko",
         "fecha": "2024-09-03",
@@ -3436,7 +3436,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM12",
+        "clase": "S12",
         "tiempo": "2:24.56",
         "atleta": "Rebecca Meyers",
         "fecha": "2019-09-13",
@@ -3445,7 +3445,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "2:21.44",
         "atleta": "Carlotta Gilli",
         "fecha": "2021-08-30",
@@ -3454,7 +3454,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM14",
+        "clase": "S14",
         "tiempo": "2:18.37",
         "atleta": "Valeriia Shabalina",
         "fecha": "2016-05-07",
@@ -3463,7 +3463,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "5:38.73",
         "atleta": "Jessica Long",
         "fecha": "2015-04-17",
@@ -3472,7 +3472,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "5:23.91",
         "atleta": "Amy Marren",
         "fecha": "2014-04-25",
@@ -3481,7 +3481,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "5:23.91",
         "atleta": "Amy Marren",
         "fecha": "2014-04-25",
@@ -3490,7 +3490,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "5:17.79",
         "atleta": "Bianka Pap",
         "fecha": "2021-06-17",
@@ -3499,7 +3499,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM11",
+        "clase": "S11",
         "tiempo": "6:06.35",
         "atleta": "Daniela Schulte",
         "fecha": "2016-06-09",
@@ -3508,7 +3508,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM12",
+        "clase": "S12",
         "tiempo": "5:17.81",
         "atleta": "Rebecca Meyers",
         "fecha": "2019-12-06",
@@ -3517,7 +3517,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "5:08.86",
         "atleta": "Carlotta Gilli",
         "fecha": "2018-06-07",
@@ -3526,7 +3526,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM14",
+        "clase": "S14",
         "tiempo": "5:12.78",
         "atleta": "Aira Kinoshita",
         "fecha": "2024-01-08",
@@ -5038,7 +5038,7 @@
     },
     {
         "evento": "75 m Individual Medley",
-        "clase": "SM1",
+        "clase": "S1",
         "tiempo": "3:45.41",
         "atleta": "Miguel Angel Navarro Riofrio",
         "fecha": "2024-12-28",
@@ -5047,7 +5047,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM2",
+        "clase": "S2",
         "tiempo": "5:22.22",
         "atleta": "Guillermo Bustamante",
         "fecha": "2002-11-03",
@@ -5056,7 +5056,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM3",
+        "clase": "S3",
         "tiempo": "2:12.72",
         "atleta": "Mikael Fredriksson",
         "fecha": "2016-02-14",
@@ -5065,7 +5065,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "1:35.73",
         "atleta": "Cameron Leslie",
         "fecha": "2020-10-08",
@@ -5074,7 +5074,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM5",
+        "clase": "S5",
         "tiempo": "1:18.99",
         "atleta": "Daniel de Faria Dias",
         "fecha": "2009-12-04",
@@ -5083,7 +5083,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM6",
+        "clase": "S6",
         "tiempo": "1:14.67",
         "atleta": "Sascha Kindred",
         "fecha": "2009-12-02",
@@ -5092,7 +5092,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM7",
+        "clase": "S7",
         "tiempo": "1:11.32",
         "atleta": "Matthew Levy",
         "fecha": "2009-12-02",
@@ -5101,7 +5101,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "1:04.66",
         "atleta": "Peter Leek",
         "fecha": "2009-11-30",
@@ -5110,7 +5110,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "0:59.07",
         "atleta": "Matthew Cowdrey",
         "fecha": "2009-12-03",
@@ -5119,7 +5119,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "0:57.53",
         "atleta": "Stefano Raimondi",
         "fecha": "2023-11-26",
@@ -5128,7 +5128,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM11",
+        "clase": "S11",
         "tiempo": "1:03.48",
         "atleta": "Rogier Dorsman",
         "fecha": "2023-12-17",
@@ -5137,7 +5137,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM12",
+        "clase": "S12",
         "tiempo": "0:59.43",
         "atleta": "Aleksandr Nevolin-Svetov",
         "fecha": "2009-12-02",
@@ -5146,7 +5146,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "0:57.80",
         "atleta": "Thomas van Wanrooij",
         "fecha": "2023-12-17",
@@ -5155,7 +5155,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM2",
+        "clase": "S2",
         "tiempo": "4:26.27",
         "atleta": "Giacomo Sarcina",
         "fecha": "2023-11-12",
@@ -5164,7 +5164,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM3",
+        "clase": "S3",
         "tiempo": "2:55.11",
         "atleta": "Ahmed Kelly",
         "fecha": "2019-10-26",
@@ -5173,7 +5173,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "2:34.60",
         "atleta": "Cameron Leslie",
         "fecha": "2009-12-05",
@@ -5182,7 +5182,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "3:32.07",
         "atleta": "Javier Torres",
         "fecha": "2003-12-13",
@@ -5191,7 +5191,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM5",
+        "clase": "S5",
         "tiempo": "2:45.94",
         "atleta": "Daniel de Faria Dias",
         "fecha": "2009-11-29",
@@ -5200,7 +5200,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM6",
+        "clase": "S6",
         "tiempo": "2:39.27",
         "atleta": "Sascha Kindred",
         "fecha": "2014-11-22",
@@ -5209,7 +5209,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM7",
+        "clase": "S7",
         "tiempo": "2:32.42",
         "atleta": "Matthew Levy",
         "fecha": "2020-11-27",
@@ -5218,7 +5218,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "2:17.16",
         "atleta": "Peter Leek",
         "fecha": "2010-07-15",
@@ -5227,7 +5227,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "2:09.69",
         "atleta": "Matthew Cowdrey",
         "fecha": "2010-07-15",
@@ -5236,7 +5236,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "2:04.05",
         "atleta": "Andre Brasil",
         "fecha": "2009-11-30",
@@ -5245,7 +5245,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM11",
+        "clase": "S11",
         "tiempo": "2:18.75",
         "atleta": "Rogier Dorsman",
         "fecha": "2022-12-16",
@@ -5254,7 +5254,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM12",
+        "clase": "S12",
         "tiempo": "2:10.63",
         "atleta": "Sergey Punko",
         "fecha": "2009-12-05",
@@ -5263,7 +5263,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "2:02.63",
         "atleta": "Alex Portal",
         "fecha": "2023-12-10",
@@ -5272,7 +5272,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM14",
+        "clase": "S14",
         "tiempo": "2:09.48",
         "atleta": "Marc Evers",
         "fecha": "2015-10-31",
@@ -5281,7 +5281,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "5:19.86",
         "atleta": "Carlos Martinez Fernandez",
         "fecha": "2020-12-20",
@@ -5290,7 +5290,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "4:51.91",
         "atleta": "Matthew Cowdrey",
         "fecha": "2005-07-15",
@@ -5299,7 +5299,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "4:41.70",
         "atleta": "Bas Takken",
         "fecha": "2023-12-16",
@@ -5308,7 +5308,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM12",
+        "clase": "S12",
         "tiempo": "4:44.48",
         "atleta": "Enrique Floriano",
         "fecha": "2003-05-03",
@@ -5317,7 +5317,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "4:40.95",
         "atleta": "Thomas van Wanrooij",
         "fecha": "2021-12-04",
@@ -5326,7 +5326,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM14",
+        "clase": "S14",
         "tiempo": "4:48.47",
         "atleta": "Nicholas Bennett",
         "fecha": "2019-11-29",
@@ -6847,7 +6847,7 @@
     },
     {
         "evento": "75 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "1:29.15",
         "atleta": "Gina Boettcher",
         "fecha": "2023-11-19",
@@ -6856,7 +6856,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM2",
+        "clase": "S2",
         "tiempo": "3:24.35",
         "atleta": "Angela Procida",
         "fecha": "2021-11-27",
@@ -6865,7 +6865,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM3",
+        "clase": "S3",
         "tiempo": "2:16.04",
         "atleta": "Jennie Ekstrom",
         "fecha": "2010-02-14",
@@ -6874,7 +6874,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "1:56.46",
         "atleta": "Margaret Mceleny",
         "fecha": "1996-11-02",
@@ -6883,7 +6883,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM5",
+        "clase": "S5",
         "tiempo": "1:34.37",
         "atleta": "Sarah Louise Rung",
         "fecha": "2014-11-09",
@@ -6892,7 +6892,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM6",
+        "clase": "S6",
         "tiempo": "1:26.85",
         "atleta": "Verena Schott",
         "fecha": "2022-11-19",
@@ -6901,7 +6901,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM7",
+        "clase": "S7",
         "tiempo": "1:23.07",
         "atleta": "Nikita Howarth",
         "fecha": "2020-10-08",
@@ -6910,7 +6910,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "1:12.27",
         "atleta": "Olesia Vladykina",
         "fecha": "2009-11-30",
@@ -6919,7 +6919,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "1:11.18",
         "atleta": "Florianne Bultje",
         "fecha": "2023-12-15",
@@ -6928,7 +6928,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "1:05.01",
         "atleta": "Sophie Pascoe",
         "fecha": "2017-10-05",
@@ -6937,7 +6937,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM11",
+        "clase": "S11",
         "tiempo": "1:15.98",
         "atleta": "Liesette Bruinsma",
         "fecha": "2023-12-15",
@@ -6946,7 +6946,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM12",
+        "clase": "S12",
         "tiempo": "1:08.83",
         "atleta": "Elena Semechin",
         "fecha": "2019-11-16",
@@ -6955,7 +6955,7 @@
     },
     {
         "evento": "100 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "1:07.88",
         "atleta": "Carlotta Gilli",
         "fecha": "2021-11-27",
@@ -6964,7 +6964,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM3",
+        "clase": "S3",
         "tiempo": "3:43.85",
         "atleta": "Jennie Ekstrom",
         "fecha": "2009-11-29",
@@ -6973,7 +6973,7 @@
     },
     {
         "evento": "150 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "2:45.73",
         "atleta": "Karina Chinett Lauridsen",
         "fecha": "2009-11-29",
@@ -6982,7 +6982,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM3",
+        "clase": "S3",
         "tiempo": "4:53.22",
         "atleta": "Karen Breumso",
         "fecha": "2003-03-21",
@@ -6991,7 +6991,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM4",
+        "clase": "S4",
         "tiempo": "4:09.85",
         "atleta": "Gina Boettcher",
         "fecha": "2023-11-18",
@@ -7000,7 +7000,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM5",
+        "clase": "S5",
         "tiempo": "3:22.34",
         "atleta": "Sarah Louise Rung",
         "fecha": "2012-03-23",
@@ -7009,7 +7009,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM6",
+        "clase": "S6",
         "tiempo": "3:02.92",
         "atleta": "Verena Schott",
         "fecha": "2022-11-19",
@@ -7018,7 +7018,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM7",
+        "clase": "S7",
         "tiempo": "2:53.07",
         "atleta": "Erin Popovich",
         "fecha": "2009-12-05",
@@ -7027,7 +7027,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "2:35.83",
         "atleta": "Olesia Vladykina",
         "fecha": "2009-12-05",
@@ -7036,7 +7036,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "2:28.53",
         "atleta": "Natalie Du Toit",
         "fecha": "2009-08-10",
@@ -7045,7 +7045,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "2:21.45",
         "atleta": "Sophie Pascoe",
         "fecha": "2017-10-04",
@@ -7054,7 +7054,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM11",
+        "clase": "S11",
         "tiempo": "2:40.27",
         "atleta": "Liesette Bruinsma",
         "fecha": "2023-12-16",
@@ -7063,7 +7063,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM12",
+        "clase": "S12",
         "tiempo": "2:29.61",
         "atleta": "Oxana Savchenko",
         "fecha": "2009-11-29",
@@ -7072,7 +7072,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "2:26.56",
         "atleta": "Katja Dedekind",
         "fecha": "2020-11-27",
@@ -7081,7 +7081,7 @@
     },
     {
         "evento": "200 m Individual Medley",
-        "clase": "SM14",
+        "clase": "S14",
         "tiempo": "2:23.09",
         "atleta": "Marlou van der Kulk",
         "fecha": "2015-10-31",
@@ -7090,7 +7090,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM8",
+        "clase": "S8",
         "tiempo": "6:10.57",
         "atleta": "Emma Hollis",
         "fecha": "2011-11-12",
@@ -7099,7 +7099,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM9",
+        "clase": "S9",
         "tiempo": "5:28.78",
         "atleta": "Anastasiya Dmytriv Dmytriv",
         "fecha": "2023-01-21",
@@ -7108,7 +7108,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM10",
+        "clase": "S10",
         "tiempo": "5:17.44",
         "atleta": "Lisa Kruger",
         "fecha": "2023-12-17",
@@ -7117,7 +7117,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM11",
+        "clase": "S11",
         "tiempo": "6:03.28",
         "atleta": "Liesette Bruinsma",
         "fecha": "2015-12-19",
@@ -7126,7 +7126,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM13",
+        "clase": "S13",
         "tiempo": "5:21.88",
         "atleta": "Valerie Grand-Maison",
         "fecha": "2008-04-26",
@@ -7135,7 +7135,7 @@
     },
     {
         "evento": "400 m Individual Medley",
-        "clase": "SM14",
+        "clase": "S14",
         "tiempo": "5:56.55",
         "atleta": "Record Mark",
         "fecha": "2014-01-01",
