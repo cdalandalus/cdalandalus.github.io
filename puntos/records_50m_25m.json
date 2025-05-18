@@ -970,7 +970,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB1",
+        "clase": "S1",
         "tiempo": "1:18.42",
         "atleta": "Aliaksei Talai",
         "fecha": "2021-04-17",
@@ -979,7 +979,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB2",
+        "clase": "S2",
         "tiempo": "0:50.65",
         "atleta": "Wenpan Huang",
         "fecha": "2016-09-14",
@@ -988,7 +988,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB3",
+        "clase": "S3",
         "tiempo": "0:46.49",
         "atleta": "Roman Zhdanov",
         "fecha": "2021-08-25",
@@ -997,7 +997,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "0:42.41",
         "atleta": "Moises Fuentes Garcia",
         "fecha": "2022-04-02",
@@ -1006,7 +1006,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "0:39.98",
         "atleta": "Antoni Ponce Bertran",
         "fecha": "2021-06-19",
@@ -1015,7 +1015,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "0:34.95",
         "atleta": "Nelson Crispin Corzo",
         "fecha": "2024-06-01",
@@ -1024,7 +1024,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "0:31.96",
         "atleta": "Carlos Daniel Serrano Zarate",
         "fecha": "2024-06-01",
@@ -1033,7 +1033,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "0:31.57",
         "atleta": "Andrei Kalina",
         "fecha": "2012-09-01",
@@ -1042,7 +1042,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "0:31.57",
         "atleta": "Andrei Kalina",
         "fecha": "2012-09-01",
@@ -1051,7 +1051,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "0:29.16",
         "atleta": "Pavel Poltavtsev",
         "fecha": "2010-06-19",
@@ -1060,7 +1060,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "0:31.35",
         "atleta": "Keiichi Kimura",
         "fecha": "2018-09-16",
@@ -1069,7 +1069,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "0:30.29",
         "atleta": "Artur Saifutdinov",
         "fecha": "2019-06-08",
@@ -1078,7 +1078,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "0:28.54",
         "atleta": "Taliso Engel",
         "fecha": "2024-06-01",
@@ -1087,7 +1087,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB1",
+        "clase": "S1",
         "tiempo": "3:31.09",
         "atleta": "Curtis Lovejoy",
         "fecha": "2014-04-26",
@@ -1096,7 +1096,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB2",
+        "clase": "S2",
         "tiempo": "2:09.40",
         "atleta": "Ioannis Kostakis",
         "fecha": "2017-07-01",
@@ -1105,7 +1105,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB3",
+        "clase": "S3",
         "tiempo": "1:49.93",
         "atleta": "Ahmed Kelly",
         "fecha": "2015-01-17",
@@ -1114,7 +1114,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "1:31.96",
         "atleta": "Dmitrii Cherniaev",
         "fecha": "2021-08-29",
@@ -1123,7 +1123,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "1:25.13",
         "atleta": "Andrei Granichka",
         "fecha": "2021-08-28",
@@ -1132,7 +1132,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "1:17.59",
         "atleta": "Nelson Crispin Corzo",
         "fecha": "2024-05-30",
@@ -1141,7 +1141,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "1:10.32",
         "atleta": "Carlos Daniel Serrano Zarate",
         "fecha": "2023-08-06",
@@ -1150,7 +1150,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "1:07.01",
         "atleta": "Andrei Kalina",
         "fecha": "2008-09-09",
@@ -1159,7 +1159,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "1:07.01",
         "atleta": "Andrei Kalina",
         "fecha": "2008-09-09",
@@ -1168,7 +1168,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "1:04.02",
         "atleta": "Pavel Poltavtsev",
         "fecha": "2012-09-08",
@@ -1177,7 +1177,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "1:10.08",
         "atleta": "Bozun Yang",
         "fecha": "2016-09-13",
@@ -1186,7 +1186,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "1:04.07",
         "atleta": "Oleksii Fedyna",
         "fecha": "2014-08-04",
@@ -1195,7 +1195,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "1:01.84",
         "atleta": "Taliso Engel",
         "fecha": "2024-09-05",
@@ -1204,7 +1204,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB14",
+        "clase": "S14",
         "tiempo": "1:02.64",
         "atleta": "Naohide Yamaguchi",
         "fecha": "2025-04-10",
@@ -1213,7 +1213,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "3:21.36",
         "atleta": "Daniel de Faria Dias",
         "fecha": "2014-12-05",
@@ -1222,7 +1222,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "3:08.48",
         "atleta": "Antoni Ponce Bertran",
         "fecha": "2023-05-14",
@@ -1231,7 +1231,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "2:59.49",
         "atleta": "Morgan Ray",
         "fecha": "2023-12-15",
@@ -1240,7 +1240,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "2:47.07",
         "atleta": "Blake Cochrane",
         "fecha": "2015-04-16",
@@ -1249,7 +1249,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "2:25.83",
         "atleta": "Andrei Kalina",
         "fecha": "2019-06-09",
@@ -1258,7 +1258,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "2:22.27",
         "atleta": "Kevin Paul",
         "fecha": "2015-04-17",
@@ -1267,7 +1267,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "2:38.10",
         "atleta": "Rogier Dorsman",
         "fecha": "2019-06-22",
@@ -1276,7 +1276,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "2:25.18",
         "atleta": "Artur Saifutdinov",
         "fecha": "2021-06-20",
@@ -1285,7 +1285,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "2:23.59",
         "atleta": "Taliso Engel",
         "fecha": "2024-06-02",
@@ -1294,7 +1294,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB14",
+        "clase": "S14",
         "tiempo": "2:20.56",
         "atleta": "Naohide Yamaguchi",
         "fecha": "2022-07-24",
@@ -2734,7 +2734,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB1",
+        "clase": "S1",
         "tiempo": "1:21.10",
         "atleta": "Ingrid Thunem",
         "fecha": "2014-07-19",
@@ -2743,7 +2743,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB2",
+        "clase": "S2",
         "tiempo": "1:04.33",
         "atleta": "Ellie Challis",
         "fecha": "2022-06-12",
@@ -2752,7 +2752,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB3",
+        "clase": "S3",
         "tiempo": "0:52.65",
         "atleta": "Jiao Cheng",
         "fecha": "2017-12-05",
@@ -2761,7 +2761,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "0:48.05",
         "atleta": "Sarah Louise Rung",
         "fecha": "2014-03-08",
@@ -2770,7 +2770,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "0:43.48",
         "atleta": "Kirsten Bruhn",
         "fecha": "2012-09-05",
@@ -2779,7 +2779,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "0:43.06",
         "atleta": "Tiffany Thomas Kane",
         "fecha": "2016-04-09",
@@ -2788,7 +2788,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "0:40.68",
         "atleta": "Tess Routliffe",
         "fecha": "2024-06-01",
@@ -2797,7 +2797,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "0:34.12",
         "atleta": "Brock Whiston",
         "fecha": "2019-06-08",
@@ -2806,7 +2806,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "0:32.21",
         "atleta": "Chantalle Zijderveld",
         "fecha": "2020-12-03",
@@ -2815,7 +2815,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "0:36.13",
         "atleta": "Karolina Pelendritou",
         "fecha": "2021-06-19",
@@ -2824,7 +2824,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "0:33.50",
         "atleta": "Elena Semechin",
         "fecha": "2024-02-02",
@@ -2833,7 +2833,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "0:33.70",
         "atleta": "Rebecca Redfern",
         "fecha": "2021-09-01",
@@ -2842,7 +2842,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB1",
+        "clase": "S1",
         "tiempo": "3:19.81",
         "atleta": "Ingrid Thunem",
         "fecha": "2015-06-05",
@@ -2851,7 +2851,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB2",
+        "clase": "S2",
         "tiempo": "2:45.02",
         "atleta": "Jennie Ekstrom",
         "fecha": "2011-05-01",
@@ -2860,7 +2860,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB3",
+        "clase": "S3",
         "tiempo": "2:07.39",
         "atleta": "Marta Fernandez Infante",
         "fecha": "2022-03-31",
@@ -2869,7 +2869,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "1:43.87",
         "atleta": "Sarah Louise Rung",
         "fecha": "2014-07-17",
@@ -2878,7 +2878,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "1:33.85",
         "atleta": "Kirsten Bruhn",
         "fecha": "2010-08-16",
@@ -2887,7 +2887,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "1:29.87",
         "atleta": "Daomin Liu",
         "fecha": "2019-09-15",
@@ -2896,7 +2896,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "1:26.09",
         "atleta": "Mariia Pavlova",
         "fecha": "2024-09-05",
@@ -2905,7 +2905,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "1:13.83",
         "atleta": "Brock Whiston",
         "fecha": "2019-09-15",
@@ -2914,7 +2914,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "1:10.99",
         "atleta": "Chantalle Zijderveld",
         "fecha": "2021-08-26",
@@ -2923,7 +2923,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "1:17.65",
         "atleta": "Daria Lukianenko",
         "fecha": "2024-04-23",
@@ -2932,7 +2932,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "1:12.54",
         "atleta": "Elena Semechin",
         "fecha": "2024-09-05",
@@ -2941,7 +2941,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "1:09.57",
         "atleta": "Fotimakhon Amilova",
         "fecha": "2018-10-09",
@@ -2950,7 +2950,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB14",
+        "clase": "S14",
         "tiempo": "1:12.02",
         "atleta": "Michelle Alonso Morales",
         "fecha": "2021-08-29",
@@ -2959,7 +2959,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "3:45.70",
         "atleta": "Sarah Louise Rung",
         "fecha": "2014-06-08",
@@ -2968,7 +2968,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "3:23.12",
         "atleta": "Kirsten Bruhn",
         "fecha": "2009-05-31",
@@ -2977,7 +2977,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "3:20.58",
         "atleta": "Cheuk Yan Ng",
         "fecha": "2023-05-14",
@@ -2986,7 +2986,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "3:12.72",
         "atleta": "Ellie Marks",
         "fecha": "2017-06-03",
@@ -2995,7 +2995,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "2:53.89",
         "atleta": "Sisse Egeborg",
         "fecha": "2003-06-28",
@@ -3004,7 +3004,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "2:42.65",
         "atleta": "Chantalle Zijderveld",
         "fecha": "2023-05-14",
@@ -3013,7 +3013,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "3:06.69",
         "atleta": "Liesette Bruinsma",
         "fecha": "2018-06-22",
@@ -3022,7 +3022,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "2:38.69",
         "atleta": "Elena Semechin",
         "fecha": "2019-06-09",
@@ -3031,7 +3031,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "2:44.13",
         "atleta": "Elena Semechin",
         "fecha": "2021-06-20",
@@ -3040,7 +3040,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB14",
+        "clase": "S14",
         "tiempo": "2:42.45",
         "atleta": "Louise Fiddes",
         "fecha": "2018-06-10",
@@ -4471,7 +4471,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB1",
+        "clase": "S1",
         "tiempo": "1:36.33",
         "atleta": "Curtis Lovejoy",
         "fecha": "2009-11-30",
@@ -4480,7 +4480,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB2",
+        "clase": "S2",
         "tiempo": "1:00.71",
         "atleta": "Michael Demarco",
         "fecha": "2009-11-30",
@@ -4489,7 +4489,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB3",
+        "clase": "S3",
         "tiempo": "0:48.25",
         "atleta": "Takayuki Suzuki",
         "fecha": "2009-11-30",
@@ -4498,7 +4498,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "0:44.18",
         "atleta": "Daniel de Faria Dias",
         "fecha": "2009-12-03",
@@ -4507,7 +4507,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "0:40.01",
         "atleta": "Antoni Ponce Bertran",
         "fecha": "2023-01-21",
@@ -4516,7 +4516,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "0:37.65",
         "atleta": "Torben Schmidtke",
         "fecha": "2015-11-20",
@@ -4525,7 +4525,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "0:34.45",
         "atleta": "Blake Cochrane",
         "fecha": "2020-11-29",
@@ -4534,7 +4534,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "0:31.39",
         "atleta": "Tim van Duuren",
         "fecha": "2019-12-20",
@@ -4543,7 +4543,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "0:29.09",
         "atleta": "Stefano Raimondi",
         "fecha": "2021-11-27",
@@ -4552,7 +4552,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "0:31.87",
         "atleta": "Rogier Dorsman",
         "fecha": "2023-12-15",
@@ -4561,7 +4561,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "0:30.64",
         "atleta": "Stephen Clegg",
         "fecha": "2022-10-30",
@@ -4570,7 +4570,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "0:27.48",
         "atleta": "Taliso Engel",
         "fecha": "2024-11-17",
@@ -4579,7 +4579,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB2",
+        "clase": "S2",
         "tiempo": "2:18.61",
         "atleta": "Grant Patterson",
         "fecha": "2012-09-15",
@@ -4588,7 +4588,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB3",
+        "clase": "S3",
         "tiempo": "1:47.54",
         "atleta": "Ahmed Kelly",
         "fecha": "2013-08-25",
@@ -4597,7 +4597,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "1:31.49",
         "atleta": "Daniel de Faria Dias",
         "fecha": "2009-12-03",
@@ -4606,7 +4606,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "1:25.08",
         "atleta": "Antoni Ponce Bertran",
         "fecha": "2023-01-21",
@@ -4615,7 +4615,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "1:21.25",
         "atleta": "Matthew Levy",
         "fecha": "2020-11-28",
@@ -4624,7 +4624,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "1:14.58",
         "atleta": "Blake Cochrane",
         "fecha": "2019-08-17",
@@ -4633,7 +4633,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "1:08.05",
         "atleta": "Tim van Duuren",
         "fecha": "2019-12-22",
@@ -4642,7 +4642,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "1:03.59",
         "atleta": "Pavel Poltavtsev",
         "fecha": "2009-12-01",
@@ -4651,7 +4651,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "1:07.49",
         "atleta": "Rogier Dorsman",
         "fecha": "2023-12-17",
@@ -4660,7 +4660,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "1:07.73",
         "atleta": "Sergey Punko",
         "fecha": "2009-11-30",
@@ -4669,7 +4669,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "1:00.26",
         "atleta": "Taliso Engel",
         "fecha": "2022-11-19",
@@ -4678,7 +4678,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB14",
+        "clase": "S14",
         "tiempo": "1:01.27",
         "atleta": "Naohide Yamaguchi",
         "fecha": "2022-11-27",
@@ -4687,7 +4687,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "5:32.26",
         "atleta": "Julian Chryssavgis",
         "fecha": "2005-07-07",
@@ -4696,7 +4696,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "3:05.05",
         "atleta": "Antoni Ponce Bertran",
         "fecha": "2023-01-21",
@@ -4705,7 +4705,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "2:56.46",
         "atleta": "Torben Schmidtke",
         "fecha": "2015-11-22",
@@ -4714,7 +4714,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "2:54.01",
         "atleta": "Simon Boer",
         "fecha": "2013-11-02",
@@ -4723,7 +4723,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "2:26.70",
         "atleta": "Oscar Salguero Galisteo",
         "fecha": "2019-01-26",
@@ -4732,7 +4732,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "2:26.36",
         "atleta": "Duncan van Haaren",
         "fecha": "2016-12-03",
@@ -4741,7 +4741,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "2:32.03",
         "atleta": "Rogier Dorsman",
         "fecha": "2021-12-04",
@@ -4750,7 +4750,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "2:27.99",
         "atleta": "Kingsley Bugarin",
         "fecha": "1999-08-14",
@@ -4759,7 +4759,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "2:15.63",
         "atleta": "Taliso Engel",
         "fecha": "2024-11-17",
@@ -4768,7 +4768,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB14",
+        "clase": "S14",
         "tiempo": "2:20.29",
         "atleta": "Scott Quin",
         "fecha": "2022-10-29",
@@ -6262,7 +6262,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB1",
+        "clase": "S1",
         "tiempo": "1:23.15",
         "atleta": "Ingrid Thunem",
         "fecha": "2014-04-04",
@@ -6271,7 +6271,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB2",
+        "clase": "S2",
         "tiempo": "1:12.76",
         "atleta": "Vera Thamm",
         "fecha": "2013-09-22",
@@ -6280,7 +6280,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB3",
+        "clase": "S3",
         "tiempo": "0:52.27",
         "atleta": "Monica Boggioni",
         "fecha": "2023-11-12",
@@ -6289,7 +6289,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "0:48.25",
         "atleta": "Sarah Louise Rung",
         "fecha": "2014-11-09",
@@ -6298,7 +6298,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "0:43.53",
         "atleta": "Kirsten Bruhn",
         "fecha": "2009-11-14",
@@ -6307,7 +6307,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "0:44.03",
         "atleta": "Maisie Summers-Newton",
         "fecha": "2017-12-09",
@@ -6316,7 +6316,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "0:41.35",
         "atleta": "Jessica Long",
         "fecha": "2009-12-03",
@@ -6325,7 +6325,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "0:36.05",
         "atleta": "Sophie Pascoe",
         "fecha": "2020-10-07",
@@ -6334,7 +6334,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "0:32.14",
         "atleta": "Chantalle Zijderveld",
         "fecha": "2021-12-04",
@@ -6343,7 +6343,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "0:38.52",
         "atleta": "Maja Reichard",
         "fecha": "2016-02-14",
@@ -6352,7 +6352,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "0:33.46",
         "atleta": "Elena Semechin",
         "fecha": "2023-11-19",
@@ -6361,7 +6361,7 @@
     },
     {
         "evento": "50 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "0:35.24",
         "atleta": "Kirby Cote",
         "fecha": "2004-02-20",
@@ -6370,7 +6370,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB1",
+        "clase": "S1",
         "tiempo": "3:09.57",
         "atleta": "Ingrid Thunem",
         "fecha": "2014-04-06",
@@ -6379,7 +6379,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB2",
+        "clase": "S2",
         "tiempo": "2:49.31",
         "atleta": "Christina Ziegler",
         "fecha": "2004-11-27",
@@ -6388,7 +6388,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB3",
+        "clase": "S3",
         "tiempo": "2:11.52",
         "atleta": "Margaret Mceleny",
         "fecha": "1998-11-07",
@@ -6397,7 +6397,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "1:44.29",
         "atleta": "Sarah Louise Rung",
         "fecha": "2016-03-13",
@@ -6406,7 +6406,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "1:35.30",
         "atleta": "Kirsten Bruhn",
         "fecha": "2009-12-03",
@@ -6415,7 +6415,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "1:34.90",
         "atleta": "Maisie Summers-Newton",
         "fecha": "2017-12-09",
@@ -6424,7 +6424,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "1:26.85",
         "atleta": "Jessica Long",
         "fecha": "2009-12-03",
@@ -6433,7 +6433,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "1:15.54",
         "atleta": "Olesia Vladykina",
         "fecha": "2009-12-02",
@@ -6442,7 +6442,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "1:10.72",
         "atleta": "Chantalle Zijderveld",
         "fecha": "2021-12-05",
@@ -6451,7 +6451,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "1:22.11",
         "atleta": "Liesette Bruinsma",
         "fecha": "2023-12-17",
@@ -6460,7 +6460,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "1:12.60",
         "atleta": "Elena Semechin",
         "fecha": "2019-11-16",
@@ -6469,7 +6469,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "1:15.42",
         "atleta": "Kirby Cote",
         "fecha": "2002-02-25",
@@ -6478,7 +6478,7 @@
     },
     {
         "evento": "100 m Breaststroke",
-        "clase": "SB14",
+        "clase": "S14",
         "tiempo": "1:13.55",
         "atleta": "Paige Leonhardt",
         "fecha": "2024-08-11",
@@ -6487,7 +6487,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB4",
+        "clase": "S4",
         "tiempo": "5:31.34",
         "atleta": "Julia Masa Murillo",
         "fecha": "2024-12-28",
@@ -6496,7 +6496,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB5",
+        "clase": "S5",
         "tiempo": "3:26.83",
         "atleta": "Kirsten Bruhn",
         "fecha": "2009-11-14",
@@ -6505,7 +6505,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB6",
+        "clase": "S6",
         "tiempo": "3:38.16",
         "atleta": "Elizabeth Johnson",
         "fecha": "2005-05-22",
@@ -6514,7 +6514,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB7",
+        "clase": "S7",
         "tiempo": "3:18.02",
         "atleta": "Lisa den Braber",
         "fecha": "2015-12-20",
@@ -6523,7 +6523,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB8",
+        "clase": "S8",
         "tiempo": "2:46.78",
         "atleta": "Sisse Egeborg",
         "fecha": "2003-11-23",
@@ -6532,7 +6532,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB9",
+        "clase": "S9",
         "tiempo": "2:37.15",
         "atleta": "Chantalle Zijderveld",
         "fecha": "2022-12-16",
@@ -6541,7 +6541,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB11",
+        "clase": "S11",
         "tiempo": "3:06.23",
         "atleta": "Liesette Bruinsma",
         "fecha": "2017-12-21",
@@ -6550,7 +6550,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB12",
+        "clase": "S12",
         "tiempo": "2:38.11",
         "atleta": "Elena Semechin",
         "fecha": "2019-11-17",
@@ -6559,7 +6559,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB13",
+        "clase": "S13",
         "tiempo": "2:43.53",
         "atleta": "Kirby Cote",
         "fecha": "2002-02-24",
@@ -6568,7 +6568,7 @@
     },
     {
         "evento": "200 m Breaststroke",
-        "clase": "SB14",
+        "clase": "S14",
         "tiempo": "2:39.38",
         "atleta": "Magda Toeters",
         "fecha": "2014-11-07",
