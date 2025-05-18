@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Calculadora Puntos Natación Adaptada</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+  <div class="container py-4">
+    <div class="card shadow">
+      <div class="card-body">
+        <h2 class="card-title text-center mb-4">Calculadora de Puntos - Natación Adaptada</h2>
+
+        <form id="form">
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label class="form-label">Género</label>
+              <select id="gender" class="form-select">
+                <option>Masculino</option>
+                <option>Femenino</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Clase</label>
+              <select id="class" class="form-select">
+                <option>S1</option>
+                <option>S2</option>
+                <option>S3</option>
+                <option>S4</option>
+                <option>S5</option>
+                <option>S6</option>
+                <option>S7</option>
+                <option>S8</option>
+                <option>S9</option>
+                <option>S10</option>
+                <option>S11</option>
+                <option>S12</option>
+                <option>S13</option>
+                <option>S14</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label class="form-label">Piscina</label>
+              <select id="pool" class="form-select">
+                <option>25m</option>
+                <option>50m</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Estilo y Distancia</label>
+              <select id="event" class="form-select">
+                <option value="">Seleccione...</option>
+                <!-- Se llenará dinámicamente con JS -->
+              </select>
+            </div>
+          </div>
+
+          <div class="row mb-3">
+            <div class="col-md-6">
+              <label class="form-label">Tu tiempo (mm:ss.xx o ss.xx)</label>
+              <input type="text" id="userTime" class="form-control" placeholder="Ej: 1:02.45" />
+              <button type="button" class="btn btn-primary w-100 mt-2" onclick="calculateFromTime()">Calcular puntos</button>
+            </div>
+            <div class="col-md-6">
+              <label class="form-label">Tus puntos</label>
+              <input type="number" id="userPoints" class="form-control" placeholder="Ej: 950" />
+              <button type="button" class="btn btn-success w-100 mt-2" onclick="calculateFromPoints()">Calcular tiempo</button>
+            </div>
+          </div>
+
+          <div class="alert alert-info mt-4 d-none" id="result"></div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let records = [];
+
+    async function loadRecords() {
+      const res = await fetch('records_all_events_50m_25m.json');
+      records = await res.json();
+
+      const eventSet = new Set(records.map(r => r.evento));
+      const eventSelect = document.getElementById('event');
+      eventSet.forEach(ev => {
+        const opt = document.createElement('option');
+        opt.value = ev;
+        opt.textContent = ev;
+        eventSelect.appendChild(opt);
+      });
+    }
+
+    function parseTime(str) {
+      if (!str) return NaN;
+      const parts = str.split(':');
+      if (parts.length === 2) {
+        return parseFloat(parts[0]) * 60 + parseFloat(parts[1]);
+      }
+      return parseFloat(str);
+    }
+
+    function formatTime(seconds) {
+      if (isNaN(seconds)) return "Inválido";
+      const min = Math.floor(seconds / 60);
+      const sec = (seconds % 60).toFixed(2).padStart(5, '0');
+      return min > 0 ? `${min}:${sec}` : sec;
+    }
+
+    function findRecord(gender, pool, clase, evento) {
+      return records.find(r =>
+        r.género === gender &&
+        r.piscina === pool &&
+        r.clase.toUpperCase() === clase.toUpperCase() &&
+        r.evento === evento
+      );
+    }
+
+    function showResult(msg, type = "info") {
+      const resultDiv = document.getElementById('result');
+      resultDiv.className = `alert alert-${type} mt-4`;
+      resultDiv.innerHTML = msg;
+      resultDiv.classList.remove("d-none");
+    }
+
+    function calculateFromTime() {
+      const gender = document.getElementById('gender').value;
+      const clase = document.getElementById('class').value;
+      const pool = document.getElementById('pool').value;
+      const evento = document.getElementById('event').value;
+      const userTimeStr = document.getElementById('userTime').value;
+
+      const record = findRecord(gender, pool, clase, evento);
+      if (!record) return showResult("No se encontró el récord para esta combinación.", "warning");
+
+      const recordTime = parseTime(record.tiempo);
+      const userTime = parseTime(userTimeStr);
+      if (isNaN(userTime)) return showResult("Formato de tiempo inválido.", "danger");
+
+      const puntos = Math.pow(recordTime / userTime, 3) * 1000;
+      showResult(`🎯 <strong>Récord mundial:</strong> ${record.tiempo} (${record.atleta})<br>🏊‍♂️ <strong>Tus puntos:</strong> ${puntos.toFixed(2)}`, "primary");
+    }
+
+    function calculateFromPoints() {
+      const gender = document.getElementById('gender').value;
+      const clase = document.getElementById('class').value;
+      const pool = document.getElementById('pool').value;
+      const evento = document.getElementById('event').value;
+      const userPointsStr = document.getElementById('userPoints').value;
+
+      const record = findRecord(gender, pool, clase, evento);
+      if (!record) return showResult("No se encontró el récord para esta combinación.", "warning");
+
+      const recordTime = parseTime(record.tiempo);
+      const puntos = parseFloat(userPointsStr);
+      if (isNaN(puntos)) return showResult("Puntos inválidos.", "danger");
+
+      const tiempo = recordTime / Math.pow(puntos / 1000, 1 / 3);
+      showResult(`🎯 <strong>Récord mundial:</strong> ${record.tiempo} (${record.atleta})<br>⏱️ <strong>Tiempo necesario para ${puntos} puntos:</strong> ${formatTime(tiempo)}`, "success");
+    }
+
+    loadRecords();
+  </script>
+</body>
+</html>
