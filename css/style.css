@@ -8,6 +8,14 @@
   right: 100% !important;
 }
 
+
+
+.nav-dropdown-menu-dropicon-bottom::after {
+  content: "▼";   /* Puedes cambiarlo por ⮟ si quieres una flecha más suave */
+  font-size: 0.7em;
+  margin-left: 5px;
+}
+
 @media (max-width: 669px) {   /*@media (max-width: 500px) {*/
   .cf:after {
     clear: both;
@@ -475,6 +483,11 @@
     position: relative;
   }
 }
+
+
+
+
+
 
 body {
   font-family: "Strait", sans-serif;
