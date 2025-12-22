@@ -1,3 +1,11 @@
+body {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  padding: 0;
+}
+
+
+
 .nav-dropdown-menu-body ul,
 .nav-dropdown-menu-body li {
   list-style: none;
@@ -10,11 +18,36 @@
 
 
 
-.nav-dropdown-menu-dropicon-bottom::after {
-  content: "▼";   /* Puedes cambiarlo por ⮟ si quieres una flecha más suave */
-  font-size: 0.7em;
-  margin-left: 5px;
+
+.nav-dropdown-menu-label-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 15px;
+  box-sizing: border-box;
+  cursor: pointer;
+  gap: 10px; /* Espacio entre ícono, texto y flecha */
 }
+
+.nav-dropdown-menu-text-after-icons {
+  flex: 1; /* Este hace que el texto ocupe el espacio restante */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.nav-dropdown-menu-dropicon-bottom {
+  flex-shrink: 0; /* La flecha no se encoge */
+}
+
+.nav-dropdown-menu-dropicon-bottom::after {
+  content: "▼";
+  font-size: 0.8em;
+  color: #333;
+}
+
+
 
 @media (max-width: 669px) {   /*@media (max-width: 500px) {*/
   .cf:after {
@@ -53,6 +86,7 @@
     display: block;
     line-height: 2.6em;
     padding: 0 10px;
+	 
   }
   .nav-dropdown-menu-main li:hover {
     background-color: #f0f0f0; /*#f0f0f0;*/
@@ -440,6 +474,7 @@
   }
   .nav-dropdown-menu-main a {
     padding: 0.8em 1.3em;
+	
   }
   .nav-dropdown-menu-toggle:checked + .nav-dropdown-menu,
   nav li,
@@ -487,13 +522,6 @@
 
 
 
-
-
-body {
-  font-family: "Strait", sans-serif;
-	font-size: 18px;
-  padding: 0;
-}
 p {
   margin-bottom: 20px;
 	font-size:20px;
