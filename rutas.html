@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-FHT09PDSDV"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-FHT09PDSDV');
+	</script>
+
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="google-site-verification" content="oYhEwQCRHXr-Y9p1YoX27sj1RWjwqcRubGGVtwSN_Mc" />
+
+	<title>Excursiones, Senderismo y Rutas Familiares</title>
+
+	<link rel="icon" type="image/gif" href="/image/logo-ruta.png">
+
+	<!-- Bootstrap 5 CSS CDN -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+	
+	<!-- Google Fonts: Montserrat -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	
+	<!-- Font Awesome Icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+	<!-- Leaflet CSS (Mapa Interactivo) -->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+	<!-- Hojas de estilo generales -->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="carousel.css">
+
+	<meta name="keywords" content="excursiones familiares, rutas familiares, rutas para niños, Málaga, senderismo, naturaleza, discapacidad">
+	<meta name="description" content="Rutas y excursiones familiares y para niños por el entorno de Málaga y provincia.">
+
+	<style>
+		body {
+			font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+			font-size: 18px;
+			padding: 0;
+			margin: 0;
+			background-color: #FFFFFF !important;
+		}
+
+		.container-fluid, .custom-container {
+			max-width: 2200px;
+		}
+
+		p {
+			margin-bottom: 20px;
+		}
+
+		/* Estilos del Mapa y Tarjetas de Excursiones */
+		#main-map {
+			height: 480px;
+			width: 100%;
+			border-radius: 8px;
+			border: 2px solid #dee2e6;
+			z-index: 1;
+		}
+
+		.route-card {
+			transition: transform 0.2s ease, box-shadow 0.2s ease;
+			border: 1px solid #dee2e6;
+			border-radius: 10px;
+			overflow: hidden;
+			background: #ffffff;
+			height: 100%;
+		}
+
+		.route-card:hover {
+			transform: translateY(-4px);
+			box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+		}
+
+		.badge-municipio {
+			background-color: #FF0000;
+			color: white;
+			font-size: 0.8rem;
+			text-transform: uppercase;
+			letter-spacing: 0.5px;
+			padding: 5px 10px;
+			border-radius: 4px;
+		}
+
+		.box-excursiones {
+			background-color: #FFFFFF !important;
+			border: 3px double #FFCCCC;
+			box-shadow: 0 0 15px rgba(0,0,0,0.05);
+			border-radius: 8px;
+			padding: 30px;
+			margin-top: 25px;
+			margin-bottom: 30px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<!-- Encabezado Principal -->
+	<img src="image/Encabezado.png" alt="Encabezado de la web" width="1200" height="auto" class="d-block w-100" onerror="this.src='./image/Encabezado.png';">
+	<hr style="background-color:#103DE3; height: 5px; margin: 0;">
+		
+	<div class="container custom-container" style="width: 90%;">
+
+		<!-- MENÚ DINÁMICO (Cargado automáticamente desde js/menu.js) -->
+		<div class="container custom-container my-3" style="width: 100%;">
+			<div id="menu"></div>
+		</div>
+
+		<!-- CONTENEDOR DE LA GUÍA DE RUTAS Y EXCURSIONES -->
+		<div class="box-excursiones">
+			
+			<div class="text-center mb-4">
+
+				<h1 class="text-danger fw-bold text-uppercase" style="font-size: 2.2rem;">Excursiones y Rutas Familiares</h1>
+			</div>
+
+
+			<div class="alert alert-light border shadow-sm p-4 mb-5 rounded">
+				<p class="fs-5 m-0 text-justify">
+					El objetivo de esta página es mostrar las muchas posibilidades que ofrece el entorno de Málaga para realizar excursiones familiares. Buscamos dar a conocer rutas y lugares cercanos para que los más pequeños, a la vez que se lo pasan bien, adquieran hábitos saludables y aprendan a valorar la naturaleza.
+				</p>
+			</div>
+
+
+			<!-- Listado Completo en Tarjetas -->
+			<div class="mb-4">
+				<h3 class="fw-bold text-danger mb-4"><i class="fa-solid fa-route me-2"></i>Listado Completo de Excursiones</h3>
+				<div class="row g-4" id="routesGrid">
+					<!-- Se genera dinámicamente -->
+				</div>
+			</div>
+
+			<!-- Mapa Interactivo -->
+			<div class="mb-5">
+				<h3 class="fw-bold text-danger mb-3"><i class="fa-solid fa-map-location-dot me-2"></i>Mapa de Rutas</h3>
+				<p class="text-muted fs-6">Haz clic en los marcadores del mapa para ver los detalles y acceder directamente a la página de cada excursión.</p>
+				<div id="main-map" class="shadow-sm"></div>
+			</div>
+
+			<hr class="my-5">			
+			
+			
+		</div>
+
+	</div>
+
+	<br>	
+	<!-- Pie de Página Dinámico -->
+	<div class="container-fluid">
+		<div id="pie"></div>
+	</div>		
+
+	<!-- Scripts para JS, Bootstrap 5 y Leaflet -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+	<!-- Llamadas a los scripts del menú, pie y funciones generales de la web -->
+	<script src="./js/menu.js"></script>
+	<script src="./js/pie.js"></script>
+	<script src="./js/script.js"></script>
+
+
+	<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+	<!-- Script del Mapa y Carga de Rutas -->
+	<script>
+		const rutasData = [
+			{ id: "pinares", municipio: "Málaga", titulo: "Pinares de San Antón", url: "rutas/pinares.html", lat: 36.741768, lng: -4.354559, desc: "Mirador natural sobre la bahía de Málaga rodeado de pino carrasco." },
+			{ id: "jardin-botanico-uma", municipio: "Málaga", titulo: "Jardín Botánico de la UMA", url: "rutas/jardin-botanico-uma.html", lat: 36.7180, lng: -4.4712, desc: "Espacio didáctico y relajante en el campus de Teatinos." },
+			{ id: "desembocadura-guadalhorce", municipio: "Málaga", titulo: "Desembocadura del Guadalhorce", url: "rutas/Desembocadura-Guadalhorce.html", lat: 36.670884, lng: -4.461519, desc: "Paraje natural protegido para la observación de aves marinas y de paso." },
+			{ id: "gibralfaro", municipio: "Málaga", titulo: "Gibralfaro", url: "rutas/gibralfaro.html", lat: 36.720440, lng: -4.417117, desc: "Paseo histórico en el corazón de Málaga con vistas panorámicas únicas." },
+			{ id: "laguna-la-barrera", municipio: "Málaga", titulo: "Laguna de la Barrera", url: "rutas/laguna-la-barrera.html", lat: 36.726607, lng: -4.471092, desc: "Laguna urbana ideal para pasear con niños y disfrutar de la fauna acuática." },
+			{ id: "puerto-de-la-torre", municipio: "Málaga", titulo: "Torre del Puerto de la Torre", url: "rutas/la-Torre-del-puerto-de-la-torre.html", lat: 36.732277, lng: -4.475844, desc: "Ruta muy corta y accesible para conocer la antigua torre vigía." },
+			{ id: "cerro-tortuga", municipio: "Málaga", titulo: "Cerro Tortuga", url: "rutas/cerro-Tortuga.html", lat: 36.730509, lng: -4.463512, desc: "Yacimiento arqueológico y excelentes vistas de la cuenca de Málaga." },
+			{ id: "caminito-del-rey", municipio: "Ardales / Álora", titulo: "Caminito del Rey", url: "rutas/caminito-del-rey.html", lat: 36.932531, lng: -4.788918, desc: "Espectacular recorrido encajonado en el Desfiladero de los Gaitanes." },
+			{ id: "chorro-necropolis", municipio: "Ardales / Álora", titulo: "Necrópolis de las Aguilillas", url: "rutas/chorro_necropolis.html", lat: 36.946569, lng: -4.820511, desc: "Restos arqueológicos en un entorno natural privilegiado en El Chorro." },
+			{ id: "torcal-de-antequera", municipio: "Antequera", titulo: "Torcal de Antequera", url: "rutas/torcal-de-antequera.html", lat: 36.953084, lng: -4.544502, desc: "Impresionante paisaje kárstico de laberintos de piedra y figuras singulares." },
+			{ id: "rio-guadalmina", municipio: "Benahavís", titulo: "Río Guadalmina", url: "rutas/rio-guadalmina.html", lat: 36.518133, lng: -5.043554, desc: "Ruta acuática refrescante por angosturas de agua cristalina." },
+			{ id: "parque-la-paloma", municipio: "Benalmádena", titulo: "Parque de la Paloma", url: "rutas/parque-la-paloma.html", lat: 36.592399, lng: -4.527482, desc: "Gran parque urbano con animales en libertad y amplio lago." },
+			{ id: "rio-chillar", municipio: "Nerja", titulo: "Río Chíllar", url: "rutas/RioChillar.html", lat: 36.764203, lng: -3.871954, desc: "Clásica excursión de senderismo acuático por los Cahorros de Nerja." },
+			{ id: "refugio-juanar", municipio: "Ojén", titulo: "Refugio de Juanar", url: "rutas/refugio-juanar.html", lat: 36.579605, lng: -4.884780, desc: "Frondoso entorno de castaños y pinos en la Sierra de las Nieves." },
+			{ id: "subida-al-santo", municipio: "Pizarra", titulo: "Subida al Santo de Pizarra", url: "rutas/SubidaalSanto.html", lat: 36.764936, lng: -4.706211, desc: "Ruta panorámica que asciende hasta el icónico Santo sobre el Guadalhorce." },
+			{ id: "cueva-del-tesoro", municipio: "Rincón de la Victoria", titulo: "Cueva del Tesoro", url: "rutas/CuevadelTesoro.html", lat: 36.719485, lng: -4.297632, desc: "Una de las pocas cuevas marinas visitables en el mundo." },
+			{ id: "parque-la-bateria", municipio: "Torremolinos", titulo: "Parque La Batería", url: "rutas/parque-la-bateria.html", lat: 36.613700, lng: -4.508463, desc: "Espacio verde con estanque barcable y torres panorámicas." },
+			{ id: "zarzalones", municipio: "Yunquera", titulo: "Zarzalones - Nacimiento Río Grande", url: "rutas/Zaralones.html", lat: 36.719618, lng: -4.928930, desc: "Nacimiento de agua y espectacular paraje a las puertas de la sierra." },
+			{ id: "tajo-de-la-caina", municipio: "Yunquera", titulo: "Tajo de la Caína", url: "rutas/tajo-de-la-caina.html", lat: 36.710546, lng: -4.965008, desc: "Impresionante cortado vertical de más de 100 metros en Sierra de las Nieves." },
+			{ id: "saucillo-bellina", municipio: "Yunquera", titulo: "Mirador Saucillo a Puerto Bellina", url: "rutas/yunquera-Saucillo-Bellina.html", lat: 36.722084, lng: -4.965473, desc: "Ruta entre pinsapos y pozos de nieve tradicionales." }
+		];
+
+		let map;
+
+		function initMap() {
+			map = L.map('main-map').setView([36.75, -4.50], 9);
+
+			L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				attribution: '&copy; OpenStreetMap'
+			}).addTo(map);
+
+			rutasData.forEach(ruta => {
+				const marker = L.marker([ruta.lat, ruta.lng]).addTo(map);
+				const popupContent = `
+					<div class="text-center p-1">
+						<span class="badge bg-danger mb-1">${ruta.municipio}</span>
+						<h6 class="fw-bold m-0 mb-1">${ruta.titulo}</h6>
+						<p class="small text-muted mb-2">${ruta.desc}</p>
+						<a href="${ruta.url}" class="btn btn-sm btn-danger text-white w-100 fw-bold">
+							Ver Excursión
+						</a>
+					</div>
+				`;
+				marker.bindPopup(popupContent);
+			});
+		}
+
+		function renderRoutes() {
+			const container = document.getElementById('routesGrid');
+			container.innerHTML = '';
+
+			rutasData.forEach(ruta => {
+				const col = document.createElement('div');
+				col.className = 'col-md-6 col-lg-4';
+				col.innerHTML = `
+					<div class="card route-card p-3 d-flex flex-column justify-content-between">
+						<div>
+							<div class="mb-2">
+								<span class="badge badge-municipio">${ruta.municipio}</span>
+							</div>
+							<h5 class="fw-bold text-dark mb-2">${ruta.titulo}</h5>
+							<p class="text-muted fs-6 mb-3">${ruta.desc}</p>
+						</div>
+						<a href="${ruta.url}" class="btn btn-outline-danger fw-bold w-100 mt-2">
+							<i class="fa-solid fa-circle-info me-2"></i>Ver Detalles de la Ruta
+						</a>
+					</div>
+				`;
+				container.appendChild(col);
+			});
+		}
+
+		document.addEventListener('DOMContentLoaded', () => {
+			initMap();
+			renderRoutes();
+		});
+	</script>
+
+</body>
+</html>
