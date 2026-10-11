@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tajo de la Caína - Yunquera</title>
+    <link rel="icon" type="image/gif" href="/image/logo-ruta.png">
+	
+    <!-- Meta SEO -->
+    <meta name="description" content="Ruta que transcurre por la Sierra de las Nieves, desde el mirador hasta el impresionante Tajo de la Caina" />
+    <meta name="keywords" content="Tajo de la Caina, sierra de las nieves, Caina, excursiones familiares, rutas familiares, rutas para niños, Yunquera, palante" />
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../Imagen/Logo_03.png">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Hojas de estilo generales del sitio -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../carousel.css">
+
+    <!-- Estilos personalizados con FONDO BLANCO Y ANCHO COMPLETO -->
+    <style>
+        html, body {
+            background-color: #FFFFFF !important;
+            font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+            font-size: 1.15rem;
+            padding: 0;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .container-fluid {
+            max-width: 2200px;
+        }
+
+        .custom-container {
+            max-width: 2200px;
+        }
+
+        .main-container {
+            width: 96%;
+            max-width: none;
+            margin: 20px auto;
+            background-color: #FFFFFF !important;
+            border: 3px double #FFCCCC;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header-custom {
+            background-color: #FFFFFF !important;
+            border-bottom: 3px double #FF0000;
+            padding: 20px 30px;
+        }
+
+        .header-custom h1 {
+            color: #FF0000;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Pestañas grandes y claras */
+        .nav-tabs .nav-link {
+            color: #333;
+            font-weight: bold;
+            font-size: 1.15rem;
+            padding: 12px 20px;
+        }
+
+        .nav-tabs .nav-link.active {
+            color: #FF0000;
+            background-color: #fff;
+            border-color: #dee2e6 #dee2e6 #fff;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+        }
+    </style>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56927153-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-56927153-1');
+    </script>
+</head>
+<body>
+
+    <!-- Encabezado idéntico a index.html -->
+    <img src="../image/Encabezado.png" alt="Encabezado Club Deportivo Adaptado Al-Andalus Torremolinos" width="1200" height="auto" class="d-block w-100">
+    <hr style="background-color:#103DE3; height: 5px">
+        
+    <div class="container custom-container" style="width: 90%;">
+
+        <br>
+        <div class="container custom-container" style="width: 100%;">
+            <!-- Menú dinámico -->
+            <div id="menu"></div>
+            <script src="../js/menu.js"></script>
+        </div>
+
+        <!-- Contenedor principal de la ruta -->
+        <div class="container-fluid px-2" itemscope itemtype="http://schema.org/Article">
+            <div class="main-container">
+                
+                <!-- Cabecera interna de la Ruta -->
+                <header class="header-custom d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="text-center flex-grow-1 mx-3">
+                        <small class="text-danger fw-bold d-block text-uppercase">Yunquera</small>
+                        <h1 class="m-0" itemprop="headline">Tajo de la Caína</h1>
+                    </div>
+                </header>
+
+                <!-- Cuerpo de la página de la ruta -->
+                <main class="p-4 p-md-5">
+                    
+
+
+                    <!-- Sistema de Pestañas (Bootstrap Tabs) -->
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-header bg-transparent p-0 border-bottom">
+                            <ul class="nav nav-tabs" id="routeTabs" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="contenido-tab" data-bs-toggle="tab" data-bs-target="#contenido" type="button" role="tab" aria-controls="contenido" aria-selected="true">Contenido</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="descargas-tab" data-bs-toggle="tab" data-bs-target="#descargas" type="button" role="tab" aria-controls="descargas" aria-selected="false">Descargas y Enlaces</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="galeria-tab" data-bs-toggle="tab" data-bs-target="#galeria" type="button" role="tab" aria-controls="galeria" aria-selected="false">Galería Multimedia</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="mapa-tab" data-bs-toggle="tab" data-bs-target="#mapa" type="button" role="tab" aria-controls="mapa" aria-selected="false">Mapa de la Zona</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="meteo-tab" data-bs-toggle="tab" data-bs-target="#meteo" type="button" role="tab" aria-controls="meteo" aria-selected="false">Meteorología</button>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="card-body px-0 py-4 bg-transparent">
+                            <div class="tab-content" id="routeTabsContent">
+                                
+                                <!-- PESTAÑA 1: CONTENIDO -->
+                                <div class="tab-pane fade show active" id="contenido" role="tabpanel" aria-labelledby="contenido-tab">
+                                    <div class="row align-items-center mb-5">
+                                        <div class="col-xl-5 col-lg-6 mb-4 mb-lg-0 text-center">
+                                            <img src="doc/yunqueras-tajo-caina/001.jpg" class="img-fluid rounded shadow-sm border w-100" alt="Tajo de la Caina">
+                                        </div>
+                                        <div class="col-xl-7 col-lg-6 fs-5" itemprop="articleBody">
+                                            <p>Cualquier parte de la Sierra de las Nieves me resulta muy atractiva. Este recorrido en particular llega a la parte alta del Tajo de la Caína, con maravillosos paisajes y un cortado de infarto, más de 100 m. de caída vertical. En esta zona hay que tener un especial cuidado con los más pequeños.</p>
+                                            <p>La ruta se inicia desde el mirador (donde se deja el coche), en dirección al Tajo de la Caína, siguiendo las indicaciones instaladas. La ruta tiene una longitud de aproximadamente 2 Km. de ida, no presentando grandes dificultades. La ruta más clásica es circular con una longitud de 4,7 km. en total, pero la ida y vuelta por el mismo sitio es algo más corta y con menos desnivel.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-5" itemprop="articleBody">
+                                        <div class="col-12 fs-5">
+                                            <p>Hay que tener muy en cuenta que cualquier ruta en la Sierra de las Nieves, en verano hace mucho calor y el sol pega muy fuerte (usar protector solar, mucha agua, y gorros, gafas), en invierno frío, cambios muy bruscos de clima (niebla, viento, lluvia) que con niños pequeños preocupa. En cualquier caso, es muy común ir sudando y quitándote ropa, acordándote de no haber dejado la ropa en el coche y 100 m. después morirte de frío.</p>
+                                            <p class="text-danger fw-bold">Insistir en tener mucho cuidado en el tajo con los más pequeños y no tirar piedras, que hay gente que pasa por el sendero de abajo.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row g-4 text-center">
+                                        <div class="col-md-6">
+                                            <img src="doc/yunqueras-tajo-caina/006.jpg" class="img-fluid rounded shadow-sm border w-100" alt="Tajo de la Caina 6">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <img src="doc/yunqueras-tajo-caina/008.jpg" class="img-fluid rounded shadow-sm border w-100" alt="Tajo de la Caina 8">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- PESTAÑA 2: DESCARGAS Y ENLACES -->
+                                <div class="tab-pane fade" id="descargas" role="tabpanel" aria-labelledby="descargas-tab">
+                                    <p class="fs-5 fw-bold">Enlaces de Interés:</p>
+                                    <ul class="list-group list-group-flush fs-5">
+                                        <li class="list-group-item bg-transparent">Parques naturales de Andalucía: <a href="http://www.juntadeandalucia.es/medioambiente/servtc5/ventana/descargaPublicaciones.do?s=img/Publicaciones/CuadernodeSenderos/17_SierradelasNieves/&amp;n=789_Caucon_TajodelaCaina.pdf" target="_blank" class="text-danger fw-bold">Folleto (PDF)</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- PESTAÑA 3: GALERÍA MULTIMEDIA -->
+                                <div class="tab-pane fade" id="galeria" role="tabpanel" aria-labelledby="galeria-tab">
+                                    <div class="row g-4">
+                                        <div class="col-md-4 text-center">
+                                            <a href="doc/yunqueras-tajo-caina/001.jpg" target="_blank">
+                                                <img src="doc/yunqueras-tajo-caina/001.jpg" class="img-fluid rounded shadow-sm border w-100" alt="Tajo de la Caina 1">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4 text-center">
+                                            <a href="doc/yunqueras-tajo-caina/006.jpg" target="_blank">
+                                                <img src="doc/yunqueras-tajo-caina/006.jpg" class="img-fluid rounded shadow-sm border w-100" alt="Tajo de la Caina 6">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-4 text-center">
+                                            <a href="doc/yunqueras-tajo-caina/008.jpg" target="_blank">
+                                                <img src="doc/yunqueras-tajo-caina/008.jpg" class="img-fluid rounded shadow-sm border w-100" alt="Tajo de la Caina 8">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- PESTAÑA 4: MAPA DE LA ZONA -->
+                                <div class="tab-pane fade" id="mapa" role="tabpanel" aria-labelledby="mapa-tab">
+                                    <p class="fs-5">Mapa de la Zona con el Track de la Ruta - <a href="https://www.google.com/maps/d/edit?mid=zN6oTVuWaDzQ.k6PpnzON_F98&amp;usp=sharing" target="_blank" class="text-danger fw-bold">Enlace</a></p>
+                                </div>
+
+                                <!-- PESTAÑA 5: METEOROLOGÍA -->
+                                <div class="tab-pane fade" id="meteo" role="tabpanel" aria-labelledby="meteo-tab">
+                                    <p class="fs-5">Predicción meteorológica de la zona para el municipio donde se encuadra la ruta, según la Agencia Estatal de Meteorología.</p>
+                                    <div class="table-responsive mt-4">
+                                        <script type='text/javascript' src='http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/yunquera-id29100?w=g4p11111111ohm33ff00w600z275x4f86d9t95b6e9r1s3n2'></script>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Metadatos Schema.org -->
+                    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                        <meta itemprop="name" content="Jose">
+                    </span>
+                </main>
+            </div>
+        </div>
+
+    </div>		<!-- Fin del container-fluid principal -->	
+        
+    <br>	
+    <div class="container-fluid">		<!-- Insertar Pie de Página -->
+        <div id="pie"></div>
+        <script src="../js/pie.js"></script>	
+    </div>		
+
+    <!-- JS de jQuery y Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script principal del menú -->
+    <script src="../js/script.js"></script>
+
+
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+</body>
+</html>
