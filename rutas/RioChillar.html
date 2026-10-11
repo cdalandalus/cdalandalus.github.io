@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Río Chíllar</title>
+	<link rel="icon" type="image/gif" href="/image/logo-ruta.png">
+    
+    <!-- Meta SEO -->
+    <meta name="description" content="Río Chillar, ruta fantástica para niños y toda la familia, situada en Nerja. Transcurre por el cauce del río Chillar por lo que es ideal para el verano">
+    <meta name="keywords" content="Río Chillar, rio chillar, Nerja, excursiones familiares, rutas familiares, rutas para niños">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../Imagen/Logo_03.png">
+
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Google Fonts: Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- Hojas de estilo generales del sitio -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../carousel.css">
+
+    <!-- Estilos personalizados con FONDO BLANCO Y ANCHO COMPLETO -->
+    <style>
+        html, body {
+            background-color: #FFFFFF !important;
+            font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+            font-size: 1.15rem;
+            padding: 0;
+            margin: 0;
+            line-height: 1.6;
+        }
+
+        .container-fluid {
+            max-width: 2200px;
+        }
+
+        .custom-container {
+            max-width: 2200px;
+        }
+
+        .main-container {
+            width: 96%;
+            max-width: none;
+            margin: 20px auto;
+            background-color: #FFFFFF !important;
+            border: 3px double #FFCCCC;
+            box-shadow: 0 0 15px rgba(0,0,0,0.05);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .header-custom {
+            background-color: #FFFFFF !important;
+            border-bottom: 3px double #FF0000;
+            padding: 20px 30px;
+        }
+
+        .header-custom h1 {
+            color: #FF0000;
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        /* Pestañas grandes y claras */
+        .nav-tabs .nav-link {
+            color: #333;
+            font-weight: bold;
+            font-size: 1.15rem;
+            padding: 12px 20px;
+        }
+
+        .nav-tabs .nav-link.active {
+            color: #FF0000;
+            background-color: #fff;
+            border-color: #dee2e6 #dee2e6 #fff;
+        }
+
+        p {
+            margin-bottom: 1.2rem;
+        }
+    </style>
+
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56927153-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-56927153-1');
+    </script>
+</head>
+<body>
+
+    <!-- Encabezado idéntico a index.html -->
+    <img src="../image/Encabezado.png" alt="Encabezado Club Deportivo Adaptado Al-Andalus Torremolinos" width="1200" height="auto" class="d-block w-100">
+    <hr style="background-color:#103DE3; height: 5px">
+        
+    <div class="container custom-container" style="width: 90%;">
+
+        <br>
+        <div class="container custom-container" style="width: 100%;">
+            <!-- Menú dinámico -->
+            <div id="menu"></div>
+            <script src="../js/menu.js"></script>
+        </div>
+
+        <!-- Contenedor principal de la ruta -->
+        <div class="container-fluid px-2" itemscope itemtype="http://schema.org/Article">
+            <div class="main-container">
+                
+                <!-- Cabecera interna de la Ruta -->
+                <header class="header-custom d-flex flex-wrap justify-content-between align-items-center">
+                    <div class="text-center flex-grow-1 mx-3">
+                        <small class="text-danger fw-bold d-block text-uppercase">Nerja</small>
+                        <h1 class="m-0" itemprop="headline">Rio Chillar</h1>
+                    </div>
+                </header>
+
+                <!-- Cuerpo de la página de la ruta -->
+                <main class="p-4 p-md-5">
+                    
+                    <!-- Traductor Google y Selector de Idioma -->
+                    <div class="row mb-4">
+                        <div class="col-md-6 ms-auto text-end">
+                            <small class="text-muted d-block mb-1 fs-5">Elegir Idioma:</small>
+                            <div id="google_translate_element"></div>
+                        </div>
+                    </div>
+
+                    <!-- Sistema de Pestañas (Bootstrap Tabs) -->
+                    <div class="card border-0 bg-transparent">
+                        <div class="card-header bg-transparent p-0 border-bottom">
+                            <ul class="nav nav-tabs" id="routeTabs" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="contenido-tab" data-bs-toggle="tab" data-bs-target="#contenido" type="button" role="tab" aria-controls="contenido" aria-selected="true">Contenido</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="descargas-tab" data-bs-toggle="tab" data-bs-target="#descargas" type="button" role="tab" aria-controls="descargas" aria-selected="false">Descargas y Enlaces</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="galeria-tab" data-bs-toggle="tab" data-bs-target="#galeria" type="button" role="tab" aria-controls="galeria" aria-selected="false">Galería Multimedia</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="meteo-tab" data-bs-toggle="tab" data-bs-target="#meteo" type="button" role="tab" aria-controls="meteo" aria-selected="false">Meteorología</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="mapa-tab" data-bs-toggle="tab" data-bs-target="#mapa" type="button" role="tab" aria-controls="mapa" aria-selected="false">Mapa de la Zona</button>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="card-body px-0 py-4 bg-transparent">
+                            <div class="tab-content" id="routeTabsContent">
+                                
+                                <!-- PESTAÑA 1: CONTENIDO -->
+                                <div class="tab-pane fade show active" id="contenido" role="tabpanel" aria-labelledby="contenido-tab">
+                                    <div class="row align-items-center mb-5">
+                                        <div class="col-xl-5 col-lg-6 mb-4 mb-lg-0 text-center">
+                                            <a href="https://drive.google.com/file/d/0B1vbUS_qjDHEeUFWODdCeDExS0U/view?usp=sharing" target="_blank">
+                                                <img itemprop="image" src="doc/chillar/DSC_0058.JPG" class="img-fluid rounded shadow-sm border w-100" alt="Rio Chillar">
+                                            </a>
+                                        </div>
+                                        <div class="col-xl-7 col-lg-6 fs-5" itemprop="articleBody">
+                                            <p>Ruta ubicada en el Término Municipal de Nerja.</p>
+                                            <p>Ruta ideal para niños pequeños y en general para toda la familia. Existe la posibilidad de subir por el cauce del río y hacer la vuelta por un canal que discurre por la parte alta de la montaña, pero esa posibilidad no se recomienda ni la voy a tratar por ser peligrosa para niños y personas con poca preparación.</p>
+                                            <p>El recorrido es lineal y transcurre en todo momento por el cauce del río Chillar, por lo que no hay posibilidad de pérdida.</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row mb-5" itemprop="articleBody">
+                                        <div class="col-12 fs-5">
+                                            <p><strong>Mejor época</strong>: y única época diría yo, en verano. No me imagino en diciembre metido en agua fría todo un día.</p>
+                                            <p><strong>Cómo llegar</strong>: Las coordenadas donde se deja el coche son: <strong id="docs-internal-guid-248777ae-18c7-71da-a664-fec0a12446fb">36.764203, -3.871954</strong>, en calle Mirto, 42, de Nerja. En el mapa de la zona se ve fácilmente donde aparcar, y el camino para iniciar el río, pero con la gran cantidad de gente que visita esta ruta no hay pérdida posible.</p>
+                                            <p>La altura del agua difícilmente sube de la rodilla, y las pozas no son profundas. Quizás el único problema que presenta esta refrescante ruta es el riesgo de resbalar y caer o esguince de tobillos. Se aconseja echar vendas y algún producto de farmacia para las picaduras de avispas, que aparecen muchas cuando se saca el bocadillo. En mi opinión el mejor calzado son zapatillas de deporte. Nunca chanclas que te dejas los dedos y prever ropa de cambio en el coche que al terminar se agradece.</p>
+                                            <p>Con la gran afluencia de personas haciendo esta ruta, el río se ha ensuciado mucho, por lo que pediría que seamos respetuosos con el medio ambiente y no dejemos basuras, ni matemos todo lo que se menea con la excusa de "por si pica".</p>
+                                        </div>
+                                    </div>
+
+                                    <div class="row g-4 text-center">
+                                        <div class="col-md-6">
+                                            <a href="https://drive.google.com/file/d/0B1vbUS_qjDHESGNmX0J3bllWYk0/view?usp=sharing" target="_blank">
+                                                <img src="doc/chillar/DSC_0042.JPG" class="img-fluid rounded shadow-sm border w-100" alt="Rio Chillar">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <a href="https://drive.google.com/file/d/0B1vbUS_qjDHEN2VDREtMNHNsTGM/view?usp=sharing" target="_blank">
+                                                <img src="doc/chillar/DSC_0077.JPG" class="img-fluid rounded shadow-sm border w-100" alt="Rio Chillar">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- PESTAÑA 2: DESCARGAS Y ENLACES -->
+                                <div class="tab-pane fade" id="descargas" role="tabpanel" aria-labelledby="descargas-tab">
+                                    <p class="fs-5 fw-bold">Enlaces de Interés:</p>
+                                    <ul class="list-group list-group-flush fs-5">
+                                        <li class="list-group-item bg-transparent">Wikipedia río Chíllar - <a href="https://es.wikipedia.org/wiki/Ch%C3%ADllar" target="_blank" class="text-danger fw-bold">Enlace</a></li>
+                                    </ul>
+                                </div>
+
+                                <!-- PESTAÑA 3: GALERÍA MULTIMEDIA -->
+                                <div class="tab-pane fade" id="galeria" role="tabpanel" aria-labelledby="galeria-tab">
+                                    <p class="fs-5 text-success fw-bold mb-4"><u>Galería de fotos del Río Chillar</u> - <a href="https://drive.google.com/folderview?id=0B1vbUS_qjDHEfjFaaGhZS3lkMFlqTmVJU1gzRU9hNklrdFFhZWVJclVsYXZiRUI2UnE1NEE&amp;usp=sharing" target="_blank" class="text-danger">Enlace</a></p>
+                                    <div class="row g-4">
+                                        <div class="col-md-6 text-center">
+                                            <a href="https://drive.google.com/file/d/0B1vbUS_qjDHEMXdMSjM3c05NTGc/view?usp=sharing" target="_blank">
+                                                <img src="doc/chillar/DSC_0031.JPG" class="img-fluid rounded shadow-sm border w-100" alt="Rio Chillar">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 text-center">
+                                            <a href="https://drive.google.com/file/d/0B1vbUS_qjDHEUTdQMVRIX21VSnM/view?usp=sharing" target="_blank">
+                                                <img src="doc/chillar/DSC_0072.JPG" class="img-fluid rounded shadow-sm border w-100" alt="Rio Chillar">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 text-center">
+                                            <a href="https://drive.google.com/file/d/0B1vbUS_qjDHEcUhsTzBVMi0zUlE/view?usp=sharing" target="_blank">
+                                                <img src="doc/chillar/DSC_0106.JPG" class="img-fluid rounded shadow-sm border w-100" alt="Rio Chillar">
+                                            </a>
+                                        </div>
+                                        <div class="col-md-6 text-center">
+                                            <a href="https://drive.google.com/file/d/0B1vbUS_qjDHESGQtVGtqYS1CbGs/view?usp=sharing" target="_blank">
+                                                <img src="doc/chillar/DSC_0117.JPG" class="img-fluid rounded shadow-sm border w-100" alt="Rio Chillar">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- PESTAÑA 4: METEOROLOGÍA -->
+                                <div class="tab-pane fade" id="meteo" role="tabpanel" aria-labelledby="meteo-tab">
+                                    <p class="fs-5">Meteorología de la zona. Información más detallada en la página de <a href="http://www.aemet.es/es/eltiempo/prediccion/municipios/nerja-id29075" target="_blank" class="text-danger fw-bold">AEMET</a> para Nerja.</p>
+                                    <div class="table-responsive mt-4">
+                                        <script type='text/javascript' src='http://www.aemet.es/es/eltiempo/prediccion/municipios/launchwidget/nerja-id29075?w=g4p11111111ohm00ff99w600z275x4f86d9t95b6e9r1s3n2'></script>
+                                    </div>
+                                </div>
+
+                                <!-- PESTAÑA 5: MAPA DE LA ZONA -->
+                                <div class="tab-pane fade" id="mapa" role="tabpanel" aria-labelledby="mapa-tab">
+                                    <p class="fs-5">Mapa de la Zona con el Track de la Ruta - <a href="https://www.google.com/maps/d/edit?mid=z4tqnefF9KcA.kczc5FwhaVFU&amp;usp=sharing" target="_blank" class="text-danger fw-bold">Enlace</a></p>
+                                    <div class="text-center mt-4">
+                                        <a href="https://www.google.com/maps/d/edit?mid=z4tqnefF9KcA.kczc5FwhaVFU&amp;usp=sharing" target="_blank">
+                                            <img src="doc/chillar/Mapa2.jpg" class="img-fluid rounded shadow-sm border" alt="Rio Chillar Mapa">
+                                        </a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Metadatos Schema.org -->
+                    <meta itemprop="datePublished" content="2015-07-20"/>
+                    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                        <meta itemprop="name" content="Jose">
+                    </span>
+                </main>
+            </div>
+        </div>
+
+    </div>		<!-- Fin del container-fluid principal -->	
+        
+    <br>	
+    <div class="container-fluid">		<!-- Insertar Pie de Página -->
+        <div id="pie"></div>
+        <script src="../js/pie.js"></script>	
+    </div>		
+
+    <!-- JS de jQuery y Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Script principal del menú -->
+    <script src="../js/script.js"></script>
