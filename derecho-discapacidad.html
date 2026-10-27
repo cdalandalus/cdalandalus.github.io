@@ -41,7 +41,7 @@
 	<meta name="description" content="Esta página web tiene como objetivo informar de los aspectos legales para discapacidad">
 	
 
-  <style>
+<style>
     :root {
       --bg-color: #f8f9fa;
       --card-bg: #ffffff;
@@ -49,6 +49,7 @@
       --accent-color: #1d3557;
       --highlight-color: #457b9d;
       --border-color: #e9ecef;
+      --tv-color: #e63946;
     }
 
     body {
@@ -163,12 +164,69 @@
       color: var(--accent-color);
     }
 
-    .external-link {
+    .tv-interview-card {
       margin-top: 32px;
-      text-align: center;
-      padding: 16px;
       background: var(--card-bg);
-      border-radius: 8px;
+      border-radius: 12px;
+      border: 1px solid var(--border-color);
+      border-left: 5px solid var(--tv-color);
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 20px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+    }
+
+    @media (max-width: 768px) {
+      .tv-interview-card {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+
+    .tv-interview-content {
+      flex: 1;
+    }
+
+    .tv-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background-color: #ffe5e6;
+      color: var(--tv-color);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 4px 10px;
+      border-radius: 20px;
+      margin-bottom: 8px;
+    }
+
+    .btn-tv {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background-color: var(--tv-color);
+      color: #ffffff;
+      padding: 12px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      white-space: nowrap;
+      transition: background-color 0.2s ease;
+    }
+
+    .btn-tv:hover {
+      background-color: #c1272d;
+      color: #ffffff;
+    }
+
+    .external-link {
+      margin-top: 24px;
+      text-align: center;
+      padding: 20px;
+      background: var(--card-bg);
+      border-radius: 12px;
       border: 1px solid var(--border-color);
     }
 
@@ -180,10 +238,8 @@
       border-radius: 6px;
       text-decoration: none;
       font-weight: 500;
-      margin-top: 8px;
+      margin-top: 12px;
     }
-	  
-	  
 	  
 		.container-fluid {
 			max-width: 2200px;
@@ -192,8 +248,6 @@
 		.custom-container {
 			max-width: 2200px;
 		}	  
-	  
-	  
 	  
   </style>
 </head>
@@ -258,6 +312,24 @@
       </div>
     </div>
   </div>
+
+<!-- Sección de Entrevista TV Málaga -->
+  <div class="tv-interview-card">
+    <div class="tv-interview-content">
+      <div class="tv-badge">
+        <i class="fa-solid fa-tv"></i> Entrevista en TV
+      </div>
+      <h3 style="margin: 4px 0 8px 0; color: var(--accent-color);">Supercapaces: Nueva Ley de Discapacidad y Dependencia</h3>
+      <p style="margin: 0; color: #555;">No te pierdas la entrevista completa realizada en <strong>Canal Málaga TV</strong> analizando los cambios y claves de la nueva legislación sobre discapacidad y dependencia.</p>
+    </div>
+    <a href="https://www.canalmalaga.es/videos/419074-supercapaces-nueva-ley-de-discapacidad-y-dependencia-26102026" target="_blank" rel="noopener noreferrer" class="btn-tv">
+      <i class="fa-solid fa-play"></i> Ver Entrevista en Canal Málaga
+    </a>
+  </div>
+
+
+
+
 
   <!-- Vinculación con el despacho de origen -->
   <div class="external-link">
